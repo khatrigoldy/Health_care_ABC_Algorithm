@@ -1,0 +1,457 @@
+{
+  "experiment_info": {
+    "timestamp": "2025-11-27T23:30:43.723585",
+    "analysis_type": "customer_vehicle_sensitivity",
+    "varied_parameters": [
+      "num_customers",
+      "num_vehicles"
+    ],
+    "fixed_parameters": [
+      "primary_capacity",
+      "satellite_capacity",
+      "secondary_capacity"
+    ]
+  },
+  "results": [
+    {
+      "num_customers": 10,
+      "num_vehicles": 4,
+      "vehicle_config": {
+        "S1": 2,
+        "S2": 2
+      },
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 13872.0,
+      "worst_fitness": 13947.0,
+      "mean_fitness": 13911.333333333334,
+      "std_fitness": 30.728199137310703,
+      "median_fitness": 13915.0,
+      "mean_execution_time": 1.7843523820241292,
+      "fitness_values": [
+        13872.0,
+        13915.0,
+        13947.0
+      ]
+    },
+    {
+      "num_customers": 10,
+      "num_vehicles": 6,
+      "vehicle_config": {
+        "S1": 3,
+        "S2": 3
+      },
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 14042.0,
+      "worst_fitness": 14103.0,
+      "mean_fitness": 14073.0,
+      "std_fitness": 24.91318258807306,
+      "median_fitness": 14074.0,
+      "mean_execution_time": 1.9539177417755127,
+      "fitness_values": [
+        14103.0,
+        14042.0,
+        14074.0
+      ]
+    },
+    {
+      "num_customers": 10,
+      "num_vehicles": 8,
+      "vehicle_config": {
+        "S1": 4,
+        "S2": 4
+      },
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 14371.0,
+      "worst_fitness": 14371.0,
+      "mean_fitness": 14371.0,
+      "std_fitness": 0.0,
+      "median_fitness": 14371.0,
+      "mean_execution_time": 2.1286643346150718,
+      "fitness_values": [
+        14371.0,
+        14371.0,
+        14371.0
+      ]
+    },
+    {
+      "num_customers": 10,
+      "num_vehicles": 10,
+      "vehicle_config": {
+        "S1": 5,
+        "S2": 5
+      },
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 14776.0,
+      "worst_fitness": 14776.0,
+      "mean_fitness": 14776.0,
+      "std_fitness": 0.0,
+      "median_fitness": 14776.0,
+      "mean_execution_time": 2.347416400909424,
+      "fitness_values": [
+        14776.0,
+        14776.0,
+        14776.0
+      ]
+    },
+    {
+      "num_customers": 10,
+      "num_vehicles": 12,
+      "vehicle_config": {
+        "S1": 6,
+        "S2": 6
+      },
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 14752.0,
+      "worst_fitness": 14752.0,
+      "mean_fitness": 14752.0,
+      "std_fitness": 0.0,
+      "median_fitness": 14752.0,
+      "mean_execution_time": 2.5393253167470298,
+      "fitness_values": [
+        14752.0,
+        14752.0,
+        14752.0
+      ]
+    },
+    {
+      "num_customers": 20,
+      "num_vehicles": 4,
+      "vehicle_config": {
+        "S1": 2,
+        "S2": 2
+      },
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 14235.05,
+      "worst_fitness": 14347.05,
+      "mean_fitness": 14301.366666666667,
+      "std_fitness": 47.9951444303369,
+      "median_fitness": 14322.0,
+      "mean_execution_time": 2.8452353477478027,
+      "fitness_values": [
+        14347.05,
+        14235.05,
+        14322.0
+      ]
+    },
+    {
+      "num_customers": 20,
+      "num_vehicles": 6,
+      "vehicle_config": {
+        "S1": 3,
+        "S2": 3
+      },
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 14250.05,
+      "worst_fitness": 14450.0,
+      "mean_fitness": 14369.366666666667,
+      "std_fitness": 86.09026593575447,
+      "median_fitness": 14408.05,
+      "mean_execution_time": 3.1866278648376465,
+      "fitness_values": [
+        14450.0,
+        14408.05,
+        14250.05
+      ]
+    },
+    {
+      "num_customers": 20,
+      "num_vehicles": 8,
+      "vehicle_config": {
+        "S1": 4,
+        "S2": 4
+      },
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 14496.05,
+      "worst_fitness": 14687.05,
+      "mean_fitness": 14578.383333333331,
+      "std_fitness": 80.16787940870637,
+      "median_fitness": 14552.05,
+      "mean_execution_time": 3.479668378829956,
+      "fitness_values": [
+        14552.05,
+        14496.05,
+        14687.05
+      ]
+    },
+    {
+      "num_customers": 20,
+      "num_vehicles": 10,
+      "vehicle_config": {
+        "S1": 5,
+        "S2": 5
+      },
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 14643.1,
+      "worst_fitness": 14809.05,
+      "mean_fitness": 14703.733333333332,
+      "std_fitness": 74.75426780830317,
+      "median_fitness": 14659.05,
+      "mean_execution_time": 3.656229337056478,
+      "fitness_values": [
+        14809.05,
+        14659.05,
+        14643.1
+      ]
+    },
+    {
+      "num_customers": 20,
+      "num_vehicles": 12,
+      "vehicle_config": {
+        "S1": 6,
+        "S2": 6
+      },
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 14790.05,
+      "worst_fitness": 14981.0,
+      "mean_fitness": 14874.383333333331,
+      "std_fitness": 79.53148572874933,
+      "median_fitness": 14852.1,
+      "mean_execution_time": 3.7875773111979165,
+      "fitness_values": [
+        14981.0,
+        14852.1,
+        14790.05
+      ]
+    },
+    {
+      "num_customers": 30,
+      "num_vehicles": 4,
+      "vehicle_config": {
+        "S1": 2,
+        "S2": 2
+      },
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 14694.75,
+      "worst_fitness": 14755.7,
+      "mean_fitness": 14734.166666666666,
+      "std_fitness": 27.91159655451877,
+      "median_fitness": 14752.05,
+      "mean_execution_time": 4.058703978856404,
+      "fitness_values": [
+        14694.75,
+        14752.05,
+        14755.7
+      ]
+    },
+    {
+      "num_customers": 30,
+      "num_vehicles": 6,
+      "vehicle_config": {
+        "S1": 3,
+        "S2": 3
+      },
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 14755.7,
+      "worst_fitness": 15073.75,
+      "mean_fitness": 14940.833333333334,
+      "std_fitness": 134.99107583672128,
+      "median_fitness": 14993.05,
+      "mean_execution_time": 4.366629679997762,
+      "fitness_values": [
+        15073.75,
+        14993.05,
+        14755.7
+      ]
+    },
+    {
+      "num_customers": 30,
+      "num_vehicles": 8,
+      "vehicle_config": {
+        "S1": 4,
+        "S2": 4
+      },
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 14819.75,
+      "worst_fitness": 15125.05,
+      "mean_fitness": 14935.616666666667,
+      "std_fitness": 135.05816853818519,
+      "median_fitness": 14862.05,
+      "mean_execution_time": 4.618735710779826,
+      "fitness_values": [
+        14819.75,
+        14862.05,
+        15125.05
+      ]
+    },
+    {
+      "num_customers": 30,
+      "num_vehicles": 10,
+      "vehicle_config": {
+        "S1": 5,
+        "S2": 5
+      },
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15118.05,
+      "worst_fitness": 15365.05,
+      "mean_fitness": 15271.716666666665,
+      "std_fitness": 109.49074034922873,
+      "median_fitness": 15332.05,
+      "mean_execution_time": 4.8648513952891035,
+      "fitness_values": [
+        15365.05,
+        15332.05,
+        15118.05
+      ]
+    },
+    {
+      "num_customers": 30,
+      "num_vehicles": 12,
+      "vehicle_config": {
+        "S1": 6,
+        "S2": 6
+      },
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15095.75,
+      "worst_fitness": 15446.1,
+      "mean_fitness": 15254.533333333333,
+      "std_fitness": 144.8961486337333,
+      "median_fitness": 15221.75,
+      "mean_execution_time": 5.1975899537404375,
+      "fitness_values": [
+        15446.1,
+        15095.75,
+        15221.75
+      ]
+    },
+    {
+      "num_customers": 41,
+      "num_vehicles": 4,
+      "vehicle_config": {
+        "S1": 2,
+        "S2": 2
+      },
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15470.0,
+      "worst_fitness": 15628.849999999999,
+      "mean_fitness": 15527.633333333331,
+      "std_fitness": 71.80046811979811,
+      "median_fitness": 15484.05,
+      "mean_execution_time": 5.506604909896851,
+      "fitness_values": [
+        15628.849999999999,
+        15484.05,
+        15470.0
+      ]
+    },
+    {
+      "num_customers": 41,
+      "num_vehicles": 6,
+      "vehicle_config": {
+        "S1": 3,
+        "S2": 3
+      },
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15821.05,
+      "worst_fitness": 16085.75,
+      "mean_fitness": 15928.6,
+      "std_fitness": 113.61233061013544,
+      "median_fitness": 15879.0,
+      "mean_execution_time": 5.828656276067098,
+      "fitness_values": [
+        16085.75,
+        15879.0,
+        15821.05
+      ]
+    },
+    {
+      "num_customers": 41,
+      "num_vehicles": 8,
+      "vehicle_config": {
+        "S1": 4,
+        "S2": 4
+      },
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15905.05,
+      "worst_fitness": 16105.05,
+      "mean_fitness": 15977.699999999999,
+      "std_fitness": 90.34772640563037,
+      "median_fitness": 15923.0,
+      "mean_execution_time": 6.118621985117595,
+      "fitness_values": [
+        15905.05,
+        16105.05,
+        15923.0
+      ]
+    },
+    {
+      "num_customers": 41,
+      "num_vehicles": 10,
+      "vehicle_config": {
+        "S1": 5,
+        "S2": 5
+      },
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 16289.05,
+      "worst_fitness": 16417.0,
+      "mean_fitness": 16349.366666666667,
+      "std_fitness": 52.49095689312197,
+      "median_fitness": 16342.05,
+      "mean_execution_time": 6.443240722020467,
+      "fitness_values": [
+        16342.05,
+        16417.0,
+        16289.05
+      ]
+    },
+    {
+      "num_customers": 41,
+      "num_vehicles": 12,
+      "vehicle_config": {
+        "S1": 6,
+        "S2": 6
+      },
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 16284.05,
+      "worst_fitness": 16585.05,
+      "mean_fitness": 16415.933333333334,
+      "std_fitness": 125.67150521189036,
+      "median_fitness": 16378.7,
+      "mean_execution_time": 6.96692156791687,
+      "fitness_values": [
+        16585.05,
+        16284.05,
+        16378.7
+      ]
+    }
+  ]
+}

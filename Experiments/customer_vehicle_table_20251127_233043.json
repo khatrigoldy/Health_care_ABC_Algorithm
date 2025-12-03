@@ -1,0 +1,214 @@
+{
+  "table_headers": [
+    "Num_Customers",
+    "Num_Vehicles",
+    "Vehicle_Config",
+    "Success_Rate",
+    "Best_Fitness",
+    "Mean_Fitness",
+    "Std_Fitness",
+    "Mean_Time"
+  ],
+  "table_data": [
+    {
+      "Num_Customers": 10,
+      "Num_Vehicles": 4,
+      "Vehicle_Config": "{'S1': 2, 'S2': 2}",
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "13872.00",
+      "Mean_Fitness": "13911.33",
+      "Std_Fitness": "30.73",
+      "Mean_Time": "1.78s"
+    },
+    {
+      "Num_Customers": 10,
+      "Num_Vehicles": 6,
+      "Vehicle_Config": "{'S1': 3, 'S2': 3}",
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "14042.00",
+      "Mean_Fitness": "14073.00",
+      "Std_Fitness": "24.91",
+      "Mean_Time": "1.95s"
+    },
+    {
+      "Num_Customers": 10,
+      "Num_Vehicles": 8,
+      "Vehicle_Config": "{'S1': 4, 'S2': 4}",
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "14371.00",
+      "Mean_Fitness": "14371.00",
+      "Std_Fitness": "0.00",
+      "Mean_Time": "2.13s"
+    },
+    {
+      "Num_Customers": 10,
+      "Num_Vehicles": 10,
+      "Vehicle_Config": "{'S1': 5, 'S2': 5}",
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "14776.00",
+      "Mean_Fitness": "14776.00",
+      "Std_Fitness": "0.00",
+      "Mean_Time": "2.35s"
+    },
+    {
+      "Num_Customers": 10,
+      "Num_Vehicles": 12,
+      "Vehicle_Config": "{'S1': 6, 'S2': 6}",
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "14752.00",
+      "Mean_Fitness": "14752.00",
+      "Std_Fitness": "0.00",
+      "Mean_Time": "2.54s"
+    },
+    {
+      "Num_Customers": 20,
+      "Num_Vehicles": 4,
+      "Vehicle_Config": "{'S1': 2, 'S2': 2}",
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "14235.05",
+      "Mean_Fitness": "14301.37",
+      "Std_Fitness": "48.00",
+      "Mean_Time": "2.85s"
+    },
+    {
+      "Num_Customers": 20,
+      "Num_Vehicles": 6,
+      "Vehicle_Config": "{'S1': 3, 'S2': 3}",
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "14250.05",
+      "Mean_Fitness": "14369.37",
+      "Std_Fitness": "86.09",
+      "Mean_Time": "3.19s"
+    },
+    {
+      "Num_Customers": 20,
+      "Num_Vehicles": 8,
+      "Vehicle_Config": "{'S1': 4, 'S2': 4}",
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "14496.05",
+      "Mean_Fitness": "14578.38",
+      "Std_Fitness": "80.17",
+      "Mean_Time": "3.48s"
+    },
+    {
+      "Num_Customers": 20,
+      "Num_Vehicles": 10,
+      "Vehicle_Config": "{'S1': 5, 'S2': 5}",
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "14643.10",
+      "Mean_Fitness": "14703.73",
+      "Std_Fitness": "74.75",
+      "Mean_Time": "3.66s"
+    },
+    {
+      "Num_Customers": 20,
+      "Num_Vehicles": 12,
+      "Vehicle_Config": "{'S1': 6, 'S2': 6}",
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "14790.05",
+      "Mean_Fitness": "14874.38",
+      "Std_Fitness": "79.53",
+      "Mean_Time": "3.79s"
+    },
+    {
+      "Num_Customers": 30,
+      "Num_Vehicles": 4,
+      "Vehicle_Config": "{'S1': 2, 'S2': 2}",
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "14694.75",
+      "Mean_Fitness": "14734.17",
+      "Std_Fitness": "27.91",
+      "Mean_Time": "4.06s"
+    },
+    {
+      "Num_Customers": 30,
+      "Num_Vehicles": 6,
+      "Vehicle_Config": "{'S1': 3, 'S2': 3}",
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "14755.70",
+      "Mean_Fitness": "14940.83",
+      "Std_Fitness": "134.99",
+      "Mean_Time": "4.37s"
+    },
+    {
+      "Num_Customers": 30,
+      "Num_Vehicles": 8,
+      "Vehicle_Config": "{'S1': 4, 'S2': 4}",
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "14819.75",
+      "Mean_Fitness": "14935.62",
+      "Std_Fitness": "135.06",
+      "Mean_Time": "4.62s"
+    },
+    {
+      "Num_Customers": 30,
+      "Num_Vehicles": 10,
+      "Vehicle_Config": "{'S1': 5, 'S2': 5}",
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15118.05",
+      "Mean_Fitness": "15271.72",
+      "Std_Fitness": "109.49",
+      "Mean_Time": "4.86s"
+    },
+    {
+      "Num_Customers": 30,
+      "Num_Vehicles": 12,
+      "Vehicle_Config": "{'S1': 6, 'S2': 6}",
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15095.75",
+      "Mean_Fitness": "15254.53",
+      "Std_Fitness": "144.90",
+      "Mean_Time": "5.20s"
+    },
+    {
+      "Num_Customers": 41,
+      "Num_Vehicles": 4,
+      "Vehicle_Config": "{'S1': 2, 'S2': 2}",
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15470.00",
+      "Mean_Fitness": "15527.63",
+      "Std_Fitness": "71.80",
+      "Mean_Time": "5.51s"
+    },
+    {
+      "Num_Customers": 41,
+      "Num_Vehicles": 6,
+      "Vehicle_Config": "{'S1': 3, 'S2': 3}",
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15821.05",
+      "Mean_Fitness": "15928.60",
+      "Std_Fitness": "113.61",
+      "Mean_Time": "5.83s"
+    },
+    {
+      "Num_Customers": 41,
+      "Num_Vehicles": 8,
+      "Vehicle_Config": "{'S1': 4, 'S2': 4}",
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15905.05",
+      "Mean_Fitness": "15977.70",
+      "Std_Fitness": "90.35",
+      "Mean_Time": "6.12s"
+    },
+    {
+      "Num_Customers": 41,
+      "Num_Vehicles": 10,
+      "Vehicle_Config": "{'S1': 5, 'S2': 5}",
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "16289.05",
+      "Mean_Fitness": "16349.37",
+      "Std_Fitness": "52.49",
+      "Mean_Time": "6.44s"
+    },
+    {
+      "Num_Customers": 41,
+      "Num_Vehicles": 12,
+      "Vehicle_Config": "{'S1': 6, 'S2': 6}",
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "16284.05",
+      "Mean_Fitness": "16415.93",
+      "Std_Fitness": "125.67",
+      "Mean_Time": "6.97s"
+    }
+  ]
+}

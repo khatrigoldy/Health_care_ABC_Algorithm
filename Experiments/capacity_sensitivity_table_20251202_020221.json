@@ -1,0 +1,290 @@
+{
+  "table_headers": [
+    "Satellite_Capacity_W",
+    "Secondary_Capacity_Q",
+    "Num_Vehicles",
+    "Success_Rate",
+    "Best_Fitness",
+    "Mean_Fitness",
+    "Std_Fitness",
+    "Median_Fitness",
+    "Mean_Time_sec"
+  ],
+  "table_data": [
+    {
+      "Satellite_Capacity_W": 19500,
+      "Secondary_Capacity_Q": 800,
+      "Num_Vehicles": 4,
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15246.05",
+      "Mean_Fitness": "15444.71",
+      "Std_Fitness": "117.87",
+      "Median_Fitness": "15447.70",
+      "Mean_Time_sec": "17.83"
+    },
+    {
+      "Satellite_Capacity_W": 19500,
+      "Secondary_Capacity_Q": 900,
+      "Num_Vehicles": 4,
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15226.75",
+      "Mean_Fitness": "15460.63",
+      "Std_Fitness": "120.90",
+      "Median_Fitness": "15509.00",
+      "Mean_Time_sec": "17.60"
+    },
+    {
+      "Satellite_Capacity_W": 19500,
+      "Secondary_Capacity_Q": 1000,
+      "Num_Vehicles": 4,
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15272.05",
+      "Mean_Fitness": "15401.96",
+      "Std_Fitness": "98.10",
+      "Median_Fitness": "15406.70",
+      "Mean_Time_sec": "17.63"
+    },
+    {
+      "Satellite_Capacity_W": 19500,
+      "Secondary_Capacity_Q": 1100,
+      "Num_Vehicles": 4,
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15361.00",
+      "Mean_Fitness": "15475.56",
+      "Std_Fitness": "102.62",
+      "Median_Fitness": "15420.05",
+      "Mean_Time_sec": "20.44"
+    },
+    {
+      "Satellite_Capacity_W": 19500,
+      "Secondary_Capacity_Q": 1200,
+      "Num_Vehicles": 4,
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15394.00",
+      "Mean_Fitness": "15521.71",
+      "Std_Fitness": "79.28",
+      "Median_Fitness": "15528.00",
+      "Mean_Time_sec": "19.15"
+    },
+    {
+      "Satellite_Capacity_W": 20000,
+      "Secondary_Capacity_Q": 800,
+      "Num_Vehicles": 4,
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15361.70",
+      "Mean_Fitness": "15405.11",
+      "Std_Fitness": "59.83",
+      "Median_Fitness": "15365.05",
+      "Mean_Time_sec": "17.77"
+    },
+    {
+      "Satellite_Capacity_W": 20000,
+      "Secondary_Capacity_Q": 900,
+      "Num_Vehicles": 4,
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15325.00",
+      "Mean_Fitness": "15417.35",
+      "Std_Fitness": "70.61",
+      "Median_Fitness": "15446.05",
+      "Mean_Time_sec": "18.06"
+    },
+    {
+      "Satellite_Capacity_W": 20000,
+      "Secondary_Capacity_Q": 1000,
+      "Num_Vehicles": 4,
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15222.70",
+      "Mean_Fitness": "15382.57",
+      "Std_Fitness": "102.13",
+      "Median_Fitness": "15380.70",
+      "Mean_Time_sec": "17.45"
+    },
+    {
+      "Satellite_Capacity_W": 20000,
+      "Secondary_Capacity_Q": 1100,
+      "Num_Vehicles": 4,
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15190.70",
+      "Mean_Fitness": "15394.72",
+      "Std_Fitness": "109.30",
+      "Median_Fitness": "15423.70",
+      "Mean_Time_sec": "17.81"
+    },
+    {
+      "Satellite_Capacity_W": 20000,
+      "Secondary_Capacity_Q": 1200,
+      "Num_Vehicles": 4,
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15317.70",
+      "Mean_Fitness": "15475.24",
+      "Std_Fitness": "112.25",
+      "Median_Fitness": "15541.75",
+      "Mean_Time_sec": "17.72"
+    },
+    {
+      "Satellite_Capacity_W": 21000,
+      "Secondary_Capacity_Q": 800,
+      "Num_Vehicles": 4,
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15251.75",
+      "Mean_Fitness": "15390.10",
+      "Std_Fitness": "78.78",
+      "Median_Fitness": "15383.75",
+      "Mean_Time_sec": "18.05"
+    },
+    {
+      "Satellite_Capacity_W": 21000,
+      "Secondary_Capacity_Q": 900,
+      "Num_Vehicles": 4,
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15240.75",
+      "Mean_Fitness": "15357.51",
+      "Std_Fitness": "122.89",
+      "Median_Fitness": "15335.75",
+      "Mean_Time_sec": "17.56"
+    },
+    {
+      "Satellite_Capacity_W": 21000,
+      "Secondary_Capacity_Q": 1000,
+      "Num_Vehicles": 4,
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15162.75",
+      "Mean_Fitness": "15281.79",
+      "Std_Fitness": "93.39",
+      "Median_Fitness": "15326.70",
+      "Mean_Time_sec": "17.44"
+    },
+    {
+      "Satellite_Capacity_W": 21000,
+      "Secondary_Capacity_Q": 1100,
+      "Num_Vehicles": 4,
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15263.70",
+      "Mean_Fitness": "15362.25",
+      "Std_Fitness": "61.11",
+      "Median_Fitness": "15357.00",
+      "Mean_Time_sec": "17.48"
+    },
+    {
+      "Satellite_Capacity_W": 21000,
+      "Secondary_Capacity_Q": 1200,
+      "Num_Vehicles": 4,
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15262.00",
+      "Mean_Fitness": "15421.88",
+      "Std_Fitness": "105.75",
+      "Median_Fitness": "15457.70",
+      "Mean_Time_sec": "17.51"
+    },
+    {
+      "Satellite_Capacity_W": 22000,
+      "Secondary_Capacity_Q": 800,
+      "Num_Vehicles": 4,
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15146.00",
+      "Mean_Fitness": "15284.03",
+      "Std_Fitness": "85.74",
+      "Median_Fitness": "15308.05",
+      "Mean_Time_sec": "17.44"
+    },
+    {
+      "Satellite_Capacity_W": 22000,
+      "Secondary_Capacity_Q": 900,
+      "Num_Vehicles": 4,
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15211.70",
+      "Mean_Fitness": "15288.83",
+      "Std_Fitness": "50.46",
+      "Median_Fitness": "15296.70",
+      "Mean_Time_sec": "17.51"
+    },
+    {
+      "Satellite_Capacity_W": 22000,
+      "Secondary_Capacity_Q": 1000,
+      "Num_Vehicles": 4,
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15178.70",
+      "Mean_Fitness": "15318.29",
+      "Std_Fitness": "101.98",
+      "Median_Fitness": "15307.00",
+      "Mean_Time_sec": "17.49"
+    },
+    {
+      "Satellite_Capacity_W": 22000,
+      "Secondary_Capacity_Q": 1100,
+      "Num_Vehicles": 4,
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15299.70",
+      "Mean_Fitness": "15340.65",
+      "Std_Fitness": "35.40",
+      "Median_Fitness": "15336.70",
+      "Mean_Time_sec": "17.70"
+    },
+    {
+      "Satellite_Capacity_W": 22000,
+      "Secondary_Capacity_Q": 1200,
+      "Num_Vehicles": 4,
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15220.75",
+      "Mean_Fitness": "15377.66",
+      "Std_Fitness": "94.87",
+      "Median_Fitness": "15392.75",
+      "Mean_Time_sec": "17.79"
+    },
+    {
+      "Satellite_Capacity_W": 23000,
+      "Secondary_Capacity_Q": 800,
+      "Num_Vehicles": 4,
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15100.00",
+      "Mean_Fitness": "15307.50",
+      "Std_Fitness": "127.78",
+      "Median_Fitness": "15311.00",
+      "Mean_Time_sec": "17.49"
+    },
+    {
+      "Satellite_Capacity_W": 23000,
+      "Secondary_Capacity_Q": 900,
+      "Num_Vehicles": 4,
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15154.05",
+      "Mean_Fitness": "15322.97",
+      "Std_Fitness": "114.65",
+      "Median_Fitness": "15400.00",
+      "Mean_Time_sec": "17.67"
+    },
+    {
+      "Satellite_Capacity_W": 23000,
+      "Secondary_Capacity_Q": 1000,
+      "Num_Vehicles": 4,
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15355.75",
+      "Mean_Fitness": "15391.03",
+      "Std_Fitness": "40.51",
+      "Median_Fitness": "15374.00",
+      "Mean_Time_sec": "18.00"
+    },
+    {
+      "Satellite_Capacity_W": 23000,
+      "Secondary_Capacity_Q": 1100,
+      "Num_Vehicles": 4,
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15311.05",
+      "Mean_Fitness": "15395.55",
+      "Std_Fitness": "49.91",
+      "Median_Fitness": "15411.00",
+      "Mean_Time_sec": "17.54"
+    },
+    {
+      "Satellite_Capacity_W": 23000,
+      "Secondary_Capacity_Q": 1200,
+      "Num_Vehicles": 4,
+      "Success_Rate": "100.0%",
+      "Best_Fitness": "15231.05",
+      "Mean_Fitness": "15384.17",
+      "Std_Fitness": "112.46",
+      "Median_Fitness": "15445.05",
+      "Mean_Time_sec": "17.49"
+    }
+  ]
+}

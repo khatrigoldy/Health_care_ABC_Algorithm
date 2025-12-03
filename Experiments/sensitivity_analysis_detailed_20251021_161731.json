@@ -1,0 +1,4738 @@
+{
+  "experiment_info": {
+    "timestamp": "2025-10-21T16:17:31.472594",
+    "analysis_type": "comprehensive_sensitivity_analysis",
+    "varied_parameters": [
+      "satellite_capacity",
+      "secondary_capacity",
+      "num_vehicles"
+    ],
+    "fixed_parameters": [
+      "primary_capacity"
+    ]
+  },
+  "vehicle_optimality_analysis": [
+    {
+      "configuration": "4 vehicles ({'S1': 2, 'S2': 2})",
+      "total_vehicles": 4,
+      "config_dict": {
+        "S1": 2,
+        "S2": 2
+      },
+      "mean_fitness": 18008.631999999958,
+      "std_fitness": 5197.200303776556,
+      "best_fitness": 15124.75,
+      "worst_fitness": 28585.99999999971,
+      "median_fitness": 15455.0,
+      "success_scenarios": 25,
+      "total_scenarios": 25
+    },
+    {
+      "configuration": "5 vehicles ({'S1': 3, 'S2': 2})",
+      "total_vehicles": 5,
+      "config_dict": {
+        "S1": 3,
+        "S2": 2
+      },
+      "mean_fitness": 18020.3413333333,
+      "std_fitness": 5192.980518432953,
+      "best_fitness": 15123.0,
+      "worst_fitness": 28554.74999999971,
+      "median_fitness": 15485.05,
+      "success_scenarios": 25,
+      "total_scenarios": 25
+    },
+    {
+      "configuration": "2 vehicles ({'S1': 1, 'S2': 1})",
+      "total_vehicles": 2,
+      "config_dict": {
+        "S1": 1,
+        "S2": 1
+      },
+      "mean_fitness": 18138.22533333328,
+      "std_fitness": 5271.723860809077,
+      "best_fitness": 15075.0,
+      "worst_fitness": 28868.699999999346,
+      "median_fitness": 15545.0,
+      "success_scenarios": 25,
+      "total_scenarios": 25
+    },
+    {
+      "configuration": "6 vehicles ({'S1': 3, 'S2': 3})",
+      "total_vehicles": 6,
+      "config_dict": {
+        "S1": 3,
+        "S2": 3
+      },
+      "mean_fitness": 18151.171333333306,
+      "std_fitness": 5213.263341945975,
+      "best_fitness": 15132.75,
+      "worst_fitness": 28803.99999999971,
+      "median_fitness": 15597.05,
+      "success_scenarios": 25,
+      "total_scenarios": 25
+    },
+    {
+      "configuration": "3 vehicles ({'S1': 1, 'S2': 2})",
+      "total_vehicles": 3,
+      "config_dict": {
+        "S1": 1,
+        "S2": 2
+      },
+      "mean_fitness": 18161.673333333307,
+      "std_fitness": 5209.580963796901,
+      "best_fitness": 15242.7,
+      "worst_fitness": 28782.700000000073,
+      "median_fitness": 15609.7,
+      "success_scenarios": 25,
+      "total_scenarios": 25
+    },
+    {
+      "configuration": "7 vehicles ({'S1': 4, 'S2': 3})",
+      "total_vehicles": 7,
+      "config_dict": {
+        "S1": 4,
+        "S2": 3
+      },
+      "mean_fitness": 18187.64066666665,
+      "std_fitness": 5200.858278808019,
+      "best_fitness": 15269.05,
+      "worst_fitness": 28731.050000000436,
+      "median_fitness": 15643.849999999999,
+      "success_scenarios": 25,
+      "total_scenarios": 25
+    },
+    {
+      "configuration": "8 vehicles ({'S1': 4, 'S2': 4})",
+      "total_vehicles": 8,
+      "config_dict": {
+        "S1": 4,
+        "S2": 4
+      },
+      "mean_fitness": 18312.705333333302,
+      "std_fitness": 5217.643909822161,
+      "best_fitness": 15426.0,
+      "worst_fitness": 28986.000000000073,
+      "median_fitness": 15771.849999999999,
+      "success_scenarios": 25,
+      "total_scenarios": 25
+    },
+    {
+      "configuration": "4 vehicles ({'S1': 1, 'S2': 3})",
+      "total_vehicles": 4,
+      "config_dict": {
+        "S1": 1,
+        "S2": 3
+      },
+      "mean_fitness": 18326.281999999992,
+      "std_fitness": 5199.308793353445,
+      "best_fitness": 15340.7,
+      "worst_fitness": 28873.000000000073,
+      "median_fitness": 15758.0,
+      "success_scenarios": 25,
+      "total_scenarios": 25
+    }
+  ],
+  "detailed_results": [
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 1
+      },
+      "total_vehicles": 2,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28565.99999999971,
+      "worst_fitness": 28701.000000000073,
+      "mean_fitness": 28624.999999999953,
+      "std_fitness": 56.409219104808656,
+      "median_fitness": 28608.000000000073,
+      "mean_execution_time": 15.480179389317831,
+      "fitness_values": [
+        28565.99999999971,
+        28701.000000000073,
+        28608.000000000073
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 2
+      },
+      "total_vehicles": 3,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28529.99999999971,
+      "worst_fitness": 28782.700000000073,
+      "mean_fitness": 28629.133333333168,
+      "std_fitness": 110.11074223522812,
+      "median_fitness": 28574.69999999971,
+      "mean_execution_time": 32.12183165550232,
+      "fitness_values": [
+        28574.69999999971,
+        28782.700000000073,
+        28529.99999999971
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 3
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28648.000000000073,
+      "worst_fitness": 28798.000000000073,
+      "mean_fitness": 28704.000000000073,
+      "std_fitness": 66.87301398920195,
+      "median_fitness": 28666.000000000073,
+      "mean_execution_time": 17.07050077120463,
+      "fitness_values": [
+        28666.000000000073,
+        28648.000000000073,
+        28798.000000000073
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 2,
+        "S2": 2
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28351.04999999971,
+      "worst_fitness": 28554.550000000072,
+      "mean_fitness": 28433.433333333163,
+      "std_fitness": 87.47672388842395,
+      "median_fitness": 28394.69999999971,
+      "mean_execution_time": 16.3891544342041,
+      "fitness_values": [
+        28394.69999999971,
+        28351.04999999971,
+        28554.550000000072
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 2
+      },
+      "total_vehicles": 5,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28319.04999999971,
+      "worst_fitness": 28497.79999999971,
+      "mean_fitness": 28412.84999999971,
+      "std_fitness": 73.24221232777363,
+      "median_fitness": 28421.69999999971,
+      "mean_execution_time": 16.784438371658325,
+      "fitness_values": [
+        28497.79999999971,
+        28319.04999999971,
+        28421.69999999971
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 3
+      },
+      "total_vehicles": 6,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28358.050000000072,
+      "worst_fitness": 28530.050000000072,
+      "mean_fitness": 28419.033333333286,
+      "std_fitness": 78.62781879780844,
+      "median_fitness": 28368.99999999971,
+      "mean_execution_time": 17.24922529856364,
+      "fitness_values": [
+        28530.050000000072,
+        28358.050000000072,
+        28368.99999999971
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 3
+      },
+      "total_vehicles": 7,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28557.000000000073,
+      "worst_fitness": 28665.49999999971,
+      "mean_fitness": 28606.833333333165,
+      "std_fitness": 44.73315946301434,
+      "median_fitness": 28597.99999999971,
+      "mean_execution_time": 17.690133492151897,
+      "fitness_values": [
+        28597.99999999971,
+        28665.49999999971,
+        28557.000000000073
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 4
+      },
+      "total_vehicles": 8,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28791.99999999971,
+      "worst_fitness": 28986.000000000073,
+      "mean_fitness": 28913.99999999983,
+      "std_fitness": 86.73330771211329,
+      "median_fitness": 28963.99999999971,
+      "mean_execution_time": 18.7372252146403,
+      "fitness_values": [
+        28791.99999999971,
+        28963.99999999971,
+        28986.000000000073
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 1
+      },
+      "total_vehicles": 2,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28425.049999999344,
+      "worst_fitness": 28800.99999999971,
+      "mean_fitness": 28666.683333332923,
+      "std_fitness": 171.2157524556301,
+      "median_fitness": 28773.99999999971,
+      "mean_execution_time": 15.28766131401062,
+      "fitness_values": [
+        28425.049999999344,
+        28800.99999999971,
+        28773.99999999971
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 2
+      },
+      "total_vehicles": 3,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28630.99999999971,
+      "worst_fitness": 28678.69999999971,
+      "mean_fitness": 28648.79999999971,
+      "std_fitness": 21.270166901084924,
+      "median_fitness": 28636.69999999971,
+      "mean_execution_time": 15.85597308476766,
+      "fitness_values": [
+        28636.69999999971,
+        28630.99999999971,
+        28678.69999999971
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 3
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28610.700000000073,
+      "worst_fitness": 28809.700000000073,
+      "mean_fitness": 28697.133333333284,
+      "std_fitness": 83.31651830356675,
+      "median_fitness": 28670.99999999971,
+      "mean_execution_time": 16.3928386370341,
+      "fitness_values": [
+        28610.700000000073,
+        28809.700000000073,
+        28670.99999999971
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 2,
+        "S2": 2
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28321.69999999971,
+      "worst_fitness": 28427.99999999971,
+      "mean_fitness": 28363.899999999707,
+      "std_fitness": 46.076964599099256,
+      "median_fitness": 28341.99999999971,
+      "mean_execution_time": 16.265368858973186,
+      "fitness_values": [
+        28341.99999999971,
+        28321.69999999971,
+        28427.99999999971
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 2
+      },
+      "total_vehicles": 5,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28406.000000000073,
+      "worst_fitness": 28452.000000000073,
+      "mean_fitness": 28425.999999999953,
+      "std_fitness": 19.252705437629327,
+      "median_fitness": 28419.99999999971,
+      "mean_execution_time": 16.736491282780964,
+      "fitness_values": [
+        28419.99999999971,
+        28406.000000000073,
+        28452.000000000073
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 3
+      },
+      "total_vehicles": 6,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28510.000000000073,
+      "worst_fitness": 28595.04999999971,
+      "mean_fitness": 28559.01666666662,
+      "std_fitness": 35.914721524932716,
+      "median_fitness": 28572.000000000073,
+      "mean_execution_time": 17.222265323003132,
+      "fitness_values": [
+        28595.04999999971,
+        28510.000000000073,
+        28572.000000000073
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 3
+      },
+      "total_vehicles": 7,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28524.04999999971,
+      "worst_fitness": 28625.04999999971,
+      "mean_fitness": 28559.04999999971,
+      "std_fitness": 46.69760878960149,
+      "median_fitness": 28528.04999999971,
+      "mean_execution_time": 17.726153135299683,
+      "fitness_values": [
+        28524.04999999971,
+        28625.04999999971,
+        28528.04999999971
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 4
+      },
+      "total_vehicles": 8,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28723.74999999971,
+      "worst_fitness": 28766.74999999971,
+      "mean_fitness": 28744.183333333043,
+      "std_fitness": 17.619370653409366,
+      "median_fitness": 28742.04999999971,
+      "mean_execution_time": 18.1919318040212,
+      "fitness_values": [
+        28766.74999999971,
+        28742.04999999971,
+        28723.74999999971
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 1
+      },
+      "total_vehicles": 2,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28496.99999999971,
+      "worst_fitness": 28753.700000000073,
+      "mean_fitness": 28643.566666666495,
+      "std_fitness": 107.91744787374431,
+      "median_fitness": 28679.99999999971,
+      "mean_execution_time": 15.236347357432047,
+      "fitness_values": [
+        28679.99999999971,
+        28496.99999999971,
+        28753.700000000073
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 2
+      },
+      "total_vehicles": 3,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28433.99999999971,
+      "worst_fitness": 28659.000000000073,
+      "mean_fitness": 28583.333333333285,
+      "std_fitness": 105.59776933688092,
+      "median_fitness": 28657.000000000073,
+      "mean_execution_time": 15.69751262664795,
+      "fitness_values": [
+        28433.99999999971,
+        28659.000000000073,
+        28657.000000000073
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 3
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28592.800000000072,
+      "worst_fitness": 28808.69999999971,
+      "mean_fitness": 28710.39999999995,
+      "std_fitness": 89.19106831203973,
+      "median_fitness": 28729.700000000073,
+      "mean_execution_time": 16.228641748428345,
+      "fitness_values": [
+        28808.69999999971,
+        28729.700000000073,
+        28592.800000000072
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 2,
+        "S2": 2
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28370.69999999971,
+      "worst_fitness": 28585.99999999971,
+      "mean_fitness": 28452.83333333304,
+      "std_fitness": 95.01516837969717,
+      "median_fitness": 28401.79999999971,
+      "mean_execution_time": 16.25091560681661,
+      "fitness_values": [
+        28370.69999999971,
+        28585.99999999971,
+        28401.79999999971
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 2
+      },
+      "total_vehicles": 5,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28284.99999999971,
+      "worst_fitness": 28402.69999999971,
+      "mean_fitness": 28330.24999999971,
+      "std_fitness": 51.75714121420072,
+      "median_fitness": 28303.04999999971,
+      "mean_execution_time": 16.735448042551678,
+      "fitness_values": [
+        28402.69999999971,
+        28303.04999999971,
+        28284.99999999971
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 3
+      },
+      "total_vehicles": 6,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28605.000000000073,
+      "worst_fitness": 28803.99999999971,
+      "mean_fitness": 28719.333333333165,
+      "std_fitness": 83.906032096593,
+      "median_fitness": 28748.99999999971,
+      "mean_execution_time": 17.260819991429646,
+      "fitness_values": [
+        28748.99999999971,
+        28605.000000000073,
+        28803.99999999971
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 3
+      },
+      "total_vehicles": 7,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28505.04999999971,
+      "worst_fitness": 28731.050000000436,
+      "mean_fitness": 28650.699999999953,
+      "std_fitness": 103.17321196272641,
+      "median_fitness": 28715.99999999971,
+      "mean_execution_time": 17.729368686676025,
+      "fitness_values": [
+        28715.99999999971,
+        28731.050000000436,
+        28505.04999999971
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 4
+      },
+      "total_vehicles": 8,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28544.99999999971,
+      "worst_fitness": 28739.000000000073,
+      "mean_fitness": 28639.01666666662,
+      "std_fitness": 79.31246574306606,
+      "median_fitness": 28633.050000000072,
+      "mean_execution_time": 18.178893327713013,
+      "fitness_values": [
+        28633.050000000072,
+        28544.99999999971,
+        28739.000000000073
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 1
+      },
+      "total_vehicles": 2,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28626.99999999971,
+      "worst_fitness": 28868.699999999346,
+      "mean_fitness": 28773.899999999587,
+      "std_fitness": 105.32657151281305,
+      "median_fitness": 28825.99999999971,
+      "mean_execution_time": 15.193002303441366,
+      "fitness_values": [
+        28626.99999999971,
+        28868.699999999346,
+        28825.99999999971
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 2
+      },
+      "total_vehicles": 3,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28498.000000000073,
+      "worst_fitness": 28687.000000000073,
+      "mean_fitness": 28570.56666666662,
+      "std_fitness": 83.16034044081854,
+      "median_fitness": 28526.69999999971,
+      "mean_execution_time": 15.656559387842814,
+      "fitness_values": [
+        28498.000000000073,
+        28687.000000000073,
+        28526.69999999971
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 3
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28753.69999999971,
+      "worst_fitness": 28766.500000000073,
+      "mean_fitness": 28761.633333333168,
+      "std_fitness": 5.6576398692446705,
+      "median_fitness": 28764.69999999971,
+      "mean_execution_time": 16.20002333323161,
+      "fitness_values": [
+        28764.69999999971,
+        28753.69999999971,
+        28766.500000000073
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 2,
+        "S2": 2
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28374.69999999971,
+      "worst_fitness": 28431.999999999854,
+      "mean_fitness": 28401.466666666423,
+      "std_fitness": 23.543765393238107,
+      "median_fitness": 28397.69999999971,
+      "mean_execution_time": 16.26875837643941,
+      "fitness_values": [
+        28431.999999999854,
+        28397.69999999971,
+        28374.69999999971
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 2
+      },
+      "total_vehicles": 5,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28297.69999999971,
+      "worst_fitness": 28468.74999999971,
+      "mean_fitness": 28408.733333333163,
+      "std_fitness": 78.59834957279875,
+      "median_fitness": 28459.750000000073,
+      "mean_execution_time": 16.751399755477905,
+      "fitness_values": [
+        28297.69999999971,
+        28459.750000000073,
+        28468.74999999971
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 3
+      },
+      "total_vehicles": 6,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28581.99999999971,
+      "worst_fitness": 28672.000000000073,
+      "mean_fitness": 28614.0166666665,
+      "std_fitness": 41.074735408800436,
+      "median_fitness": 28588.04999999971,
+      "mean_execution_time": 17.25091330210368,
+      "fitness_values": [
+        28581.99999999971,
+        28672.000000000073,
+        28588.04999999971
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 3
+      },
+      "total_vehicles": 7,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28488.750000000073,
+      "worst_fitness": 28648.000000000073,
+      "mean_fitness": 28547.500000000073,
+      "std_fitness": 71.4023225579299,
+      "median_fitness": 28505.750000000073,
+      "mean_execution_time": 17.721647659937542,
+      "fitness_values": [
+        28505.750000000073,
+        28648.000000000073,
+        28488.750000000073
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 4
+      },
+      "total_vehicles": 8,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28557.750000000073,
+      "worst_fitness": 28849.04999999971,
+      "mean_fitness": 28751.49999999983,
+      "std_fitness": 137.00304741119083,
+      "median_fitness": 28847.69999999971,
+      "mean_execution_time": 18.13115668296814,
+      "fitness_values": [
+        28557.750000000073,
+        28849.04999999971,
+        28847.69999999971
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 1
+      },
+      "total_vehicles": 2,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28636.99999999971,
+      "worst_fitness": 28735.699999999346,
+      "mean_fitness": 28685.233333333043,
+      "std_fitness": 40.32504046961555,
+      "median_fitness": 28683.000000000073,
+      "mean_execution_time": 15.224919319152832,
+      "fitness_values": [
+        28735.699999999346,
+        28683.000000000073,
+        28636.99999999971
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 2
+      },
+      "total_vehicles": 3,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28355.99999999971,
+      "worst_fitness": 28564.000000000073,
+      "mean_fitness": 28458.89999999995,
+      "std_fitness": 84.92989265677676,
+      "median_fitness": 28456.700000000073,
+      "mean_execution_time": 15.715997695922852,
+      "fitness_values": [
+        28456.700000000073,
+        28355.99999999971,
+        28564.000000000073
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 3
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28501.000000000073,
+      "worst_fitness": 28873.000000000073,
+      "mean_fitness": 28736.666666666617,
+      "std_fitness": 167.32470097248483,
+      "median_fitness": 28835.99999999971,
+      "mean_execution_time": 16.222467025121052,
+      "fitness_values": [
+        28501.000000000073,
+        28873.000000000073,
+        28835.99999999971
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 2,
+        "S2": 2
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28139.000000000073,
+      "worst_fitness": 28485.69999999971,
+      "mean_fitness": 28351.89999999995,
+      "std_fitness": 152.19029754433848,
+      "median_fitness": 28431.000000000073,
+      "mean_execution_time": 16.293452819188435,
+      "fitness_values": [
+        28139.000000000073,
+        28485.69999999971,
+        28431.000000000073
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 2
+      },
+      "total_vehicles": 5,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28289.550000000072,
+      "worst_fitness": 28554.74999999971,
+      "mean_fitness": 28439.09999999995,
+      "std_fitness": 110.8893367279831,
+      "median_fitness": 28473.000000000073,
+      "mean_execution_time": 16.78139583269755,
+      "fitness_values": [
+        28473.000000000073,
+        28554.74999999971,
+        28289.550000000072
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 3
+      },
+      "total_vehicles": 6,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28449.74999999971,
+      "worst_fitness": 28717.700000000073,
+      "mean_fitness": 28559.166666666497,
+      "std_fitness": 114.77118056780385,
+      "median_fitness": 28510.04999999971,
+      "mean_execution_time": 17.255937417348225,
+      "fitness_values": [
+        28510.04999999971,
+        28717.700000000073,
+        28449.74999999971
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 3
+      },
+      "total_vehicles": 7,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28484.050000000436,
+      "worst_fitness": 28623.10000000007,
+      "mean_fitness": 28569.733333333406,
+      "std_fitness": 61.19368613013582,
+      "median_fitness": 28602.04999999971,
+      "mean_execution_time": 17.760387659072876,
+      "fitness_values": [
+        28484.050000000436,
+        28623.10000000007,
+        28602.04999999971
+      ]
+    },
+    {
+      "satellite_capacity": 19000,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 4
+      },
+      "total_vehicles": 8,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 28277.750000000073,
+      "worst_fitness": 28872.69999999971,
+      "mean_fitness": 28670.483333333283,
+      "std_fitness": 277.7454780109059,
+      "median_fitness": 28861.000000000073,
+      "mean_execution_time": 18.19586690266927,
+      "fitness_values": [
+        28861.000000000073,
+        28277.750000000073,
+        28872.69999999971
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 1
+      },
+      "total_vehicles": 2,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15585.0,
+      "worst_fitness": 15716.7,
+      "mean_fitness": 15629.566666666666,
+      "std_fitness": 61.61798078122649,
+      "median_fitness": 15587.0,
+      "mean_execution_time": 15.203298091888428,
+      "fitness_values": [
+        15585.0,
+        15716.7,
+        15587.0
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 2
+      },
+      "total_vehicles": 3,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15276.0,
+      "worst_fitness": 15618.75,
+      "mean_fitness": 15492.916666666666,
+      "std_fitness": 154.0379192132754,
+      "median_fitness": 15584.0,
+      "mean_execution_time": 16.591303825378418,
+      "fitness_values": [
+        15584.0,
+        15618.75,
+        15276.0
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 3
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15710.0,
+      "worst_fitness": 15742.05,
+      "mean_fitness": 15727.583333333334,
+      "std_fitness": 13.268655629799754,
+      "median_fitness": 15730.7,
+      "mean_execution_time": 16.990275621414185,
+      "fitness_values": [
+        15742.05,
+        15710.0,
+        15730.7
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 2,
+        "S2": 2
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15388.05,
+      "worst_fitness": 15496.7,
+      "mean_fitness": 15431.25,
+      "std_fitness": 47.063804209463555,
+      "median_fitness": 15409.0,
+      "mean_execution_time": 16.987828334172566,
+      "fitness_values": [
+        15409.0,
+        15496.7,
+        15388.05
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 2
+      },
+      "total_vehicles": 5,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15397.849999999999,
+      "worst_fitness": 15539.7,
+      "mean_fitness": 15485.85,
+      "std_fitness": 62.74298101514446,
+      "median_fitness": 15520.0,
+      "mean_execution_time": 16.945275624593098,
+      "fitness_values": [
+        15520.0,
+        15397.849999999999,
+        15539.7
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 3
+      },
+      "total_vehicles": 6,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15487.0,
+      "worst_fitness": 15619.75,
+      "mean_fitness": 15550.25,
+      "std_fitness": 54.374856321649254,
+      "median_fitness": 15544.0,
+      "mean_execution_time": 17.288164456685383,
+      "fitness_values": [
+        15544.0,
+        15487.0,
+        15619.75
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 3
+      },
+      "total_vehicles": 7,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15465.75,
+      "worst_fitness": 15695.75,
+      "mean_fitness": 15561.416666666666,
+      "std_fitness": 97.79684157590277,
+      "median_fitness": 15522.75,
+      "mean_execution_time": 17.73542881011963,
+      "fitness_values": [
+        15522.75,
+        15695.75,
+        15465.75
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 4
+      },
+      "total_vehicles": 8,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15819.7,
+      "worst_fitness": 15901.0,
+      "mean_fitness": 15858.133333333333,
+      "std_fitness": 33.338299630038144,
+      "median_fitness": 15853.7,
+      "mean_execution_time": 18.165945370992024,
+      "fitness_values": [
+        15819.7,
+        15901.0,
+        15853.7
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 1
+      },
+      "total_vehicles": 2,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15509.7,
+      "worst_fitness": 15692.7,
+      "mean_fitness": 15599.700000000003,
+      "std_fitness": 74.73954776421918,
+      "median_fitness": 15596.7,
+      "mean_execution_time": 15.114689509073893,
+      "fitness_values": [
+        15509.7,
+        15692.7,
+        15596.7
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 2
+      },
+      "total_vehicles": 3,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15568.7,
+      "worst_fitness": 15835.7,
+      "mean_fitness": 15671.366666666669,
+      "std_fitness": 117.40054892924857,
+      "median_fitness": 15609.7,
+      "mean_execution_time": 15.642550230026245,
+      "fitness_values": [
+        15568.7,
+        15835.7,
+        15609.7
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 3
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15523.0,
+      "worst_fitness": 15863.0,
+      "mean_fitness": 15698.233333333332,
+      "std_fitness": 139.00159071831598,
+      "median_fitness": 15708.7,
+      "mean_execution_time": 16.20674157142639,
+      "fitness_values": [
+        15863.0,
+        15708.7,
+        15523.0
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 2,
+        "S2": 2
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15438.8,
+      "worst_fitness": 15517.7,
+      "mean_fitness": 15488.083333333334,
+      "std_fitness": 35.08452492038231,
+      "median_fitness": 15507.75,
+      "mean_execution_time": 16.23722704251607,
+      "fitness_values": [
+        15438.8,
+        15517.7,
+        15507.75
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 2
+      },
+      "total_vehicles": 5,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15387.75,
+      "worst_fitness": 15521.0,
+      "mean_fitness": 15442.933333333334,
+      "std_fitness": 56.7545935487948,
+      "median_fitness": 15420.05,
+      "mean_execution_time": 16.712924242019653,
+      "fitness_values": [
+        15387.75,
+        15521.0,
+        15420.05
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 3
+      },
+      "total_vehicles": 6,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15555.0,
+      "worst_fitness": 15742.8,
+      "mean_fitness": 15642.833333333334,
+      "std_fitness": 77.14757863270133,
+      "median_fitness": 15630.7,
+      "mean_execution_time": 17.3668429851532,
+      "fitness_values": [
+        15630.7,
+        15555.0,
+        15742.8
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 3
+      },
+      "total_vehicles": 7,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15466.0,
+      "worst_fitness": 15676.05,
+      "mean_fitness": 15578.283333333333,
+      "std_fitness": 86.36473367192286,
+      "median_fitness": 15592.8,
+      "mean_execution_time": 17.654536883036297,
+      "fitness_values": [
+        15592.8,
+        15676.05,
+        15466.0
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 4
+      },
+      "total_vehicles": 8,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15749.05,
+      "worst_fitness": 15862.75,
+      "mean_fitness": 15820.266666666668,
+      "std_fitness": 50.66968740995208,
+      "median_fitness": 15849.0,
+      "mean_execution_time": 18.121641953786213,
+      "fitness_values": [
+        15862.75,
+        15849.0,
+        15749.05
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 1
+      },
+      "total_vehicles": 2,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15592.0,
+      "worst_fitness": 15703.0,
+      "mean_fitness": 15629.566666666666,
+      "std_fitness": 51.92984583925579,
+      "median_fitness": 15593.7,
+      "mean_execution_time": 15.090064684549967,
+      "fitness_values": [
+        15593.7,
+        15592.0,
+        15703.0
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 2
+      },
+      "total_vehicles": 3,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15615.7,
+      "worst_fitness": 15835.0,
+      "mean_fitness": 15718.916666666666,
+      "std_fitness": 89.98994696940049,
+      "median_fitness": 15706.05,
+      "mean_execution_time": 15.676194588343302,
+      "fitness_values": [
+        15706.05,
+        15615.7,
+        15835.0
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 3
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15578.0,
+      "worst_fitness": 15873.0,
+      "mean_fitness": 15746.0,
+      "std_fitness": 123.8735914820696,
+      "median_fitness": 15787.0,
+      "mean_execution_time": 16.205357948939007,
+      "fitness_values": [
+        15873.0,
+        15578.0,
+        15787.0
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 2,
+        "S2": 2
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15439.7,
+      "worst_fitness": 15555.05,
+      "mean_fitness": 15492.816666666666,
+      "std_fitness": 47.53062755272115,
+      "median_fitness": 15483.7,
+      "mean_execution_time": 16.235285600026447,
+      "fitness_values": [
+        15555.05,
+        15439.7,
+        15483.7
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 2
+      },
+      "total_vehicles": 5,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15446.85,
+      "worst_fitness": 15710.8,
+      "mean_fitness": 15544.450000000003,
+      "std_fitness": 118.21540367763639,
+      "median_fitness": 15475.7,
+      "mean_execution_time": 16.888904333114624,
+      "fitness_values": [
+        15446.85,
+        15710.8,
+        15475.7
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 3
+      },
+      "total_vehicles": 6,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15501.05,
+      "worst_fitness": 15734.05,
+      "mean_fitness": 15628.716666666665,
+      "std_fitness": 96.42383292296337,
+      "median_fitness": 15651.05,
+      "mean_execution_time": 17.30361572901408,
+      "fitness_values": [
+        15651.05,
+        15501.05,
+        15734.05
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 3
+      },
+      "total_vehicles": 7,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15415.7,
+      "worst_fitness": 15840.0,
+      "mean_fitness": 15567.483333333332,
+      "std_fitness": 193.1148636318693,
+      "median_fitness": 15446.75,
+      "mean_execution_time": 18.118088245391846,
+      "fitness_values": [
+        15840.0,
+        15415.7,
+        15446.75
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 4
+      },
+      "total_vehicles": 8,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15581.7,
+      "worst_fitness": 15895.0,
+      "mean_fitness": 15742.516666666668,
+      "std_fitness": 128.03985273690688,
+      "median_fitness": 15750.849999999999,
+      "mean_execution_time": 19.35753806432088,
+      "fitness_values": [
+        15581.7,
+        15895.0,
+        15750.849999999999
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 1
+      },
+      "total_vehicles": 2,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15511.05,
+      "worst_fitness": 15720.05,
+      "mean_fitness": 15600.366666666667,
+      "std_fitness": 87.9842820558813,
+      "median_fitness": 15570.0,
+      "mean_execution_time": 15.843469381332397,
+      "fitness_values": [
+        15570.0,
+        15511.05,
+        15720.05
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 2
+      },
+      "total_vehicles": 3,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15493.7,
+      "worst_fitness": 15695.7,
+      "mean_fitness": 15594.033333333335,
+      "std_fitness": 82.47154391398014,
+      "median_fitness": 15592.7,
+      "mean_execution_time": 16.391540050506592,
+      "fitness_values": [
+        15592.7,
+        15493.7,
+        15695.7
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 3
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15625.7,
+      "worst_fitness": 15887.0,
+      "mean_fitness": 15791.566666666666,
+      "std_fitness": 117.72868054226268,
+      "median_fitness": 15862.0,
+      "mean_execution_time": 16.902859290440876,
+      "fitness_values": [
+        15887.0,
+        15625.7,
+        15862.0
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 2,
+        "S2": 2
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15124.75,
+      "worst_fitness": 15455.05,
+      "mean_fitness": 15294.833333333334,
+      "std_fitness": 135.0247775615849,
+      "median_fitness": 15304.7,
+      "mean_execution_time": 16.91180117925008,
+      "fitness_values": [
+        15455.05,
+        15124.75,
+        15304.7
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 2
+      },
+      "total_vehicles": 5,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15276.7,
+      "worst_fitness": 15622.05,
+      "mean_fitness": 15482.25,
+      "std_fitness": 148.4563965165075,
+      "median_fitness": 15548.0,
+      "mean_execution_time": 17.374433914820354,
+      "fitness_values": [
+        15548.0,
+        15276.7,
+        15622.05
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 3
+      },
+      "total_vehicles": 6,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15556.75,
+      "worst_fitness": 15637.7,
+      "mean_fitness": 15591.816666666666,
+      "std_fitness": 33.92124047784187,
+      "median_fitness": 15581.0,
+      "mean_execution_time": 17.92353105545044,
+      "fitness_values": [
+        15581.0,
+        15637.7,
+        15556.75
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 3
+      },
+      "total_vehicles": 7,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15582.75,
+      "worst_fitness": 15831.0,
+      "mean_fitness": 15679.15,
+      "std_fitness": 108.66781952353683,
+      "median_fitness": 15623.7,
+      "mean_execution_time": 18.429670969645183,
+      "fitness_values": [
+        15623.7,
+        15582.75,
+        15831.0
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 4
+      },
+      "total_vehicles": 8,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15426.0,
+      "worst_fitness": 15914.7,
+      "mean_fitness": 15721.816666666666,
+      "std_fitness": 212.37290447596098,
+      "median_fitness": 15824.75,
+      "mean_execution_time": 19.474329948425293,
+      "fitness_values": [
+        15824.75,
+        15426.0,
+        15914.7
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 1
+      },
+      "total_vehicles": 2,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15583.0,
+      "worst_fitness": 15688.0,
+      "mean_fitness": 15631.0,
+      "std_fitness": 43.3358973600409,
+      "median_fitness": 15622.0,
+      "mean_execution_time": 16.56769371032715,
+      "fitness_values": [
+        15622.0,
+        15688.0,
+        15583.0
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 2
+      },
+      "total_vehicles": 3,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15555.0,
+      "worst_fitness": 15629.0,
+      "mean_fitness": 15591.916666666666,
+      "std_fitness": 30.210603362984255,
+      "median_fitness": 15591.75,
+      "mean_execution_time": 17.43606384595235,
+      "fitness_values": [
+        15555.0,
+        15629.0,
+        15591.75
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 3
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15613.0,
+      "worst_fitness": 16061.7,
+      "mean_fitness": 15876.133333333333,
+      "std_fitness": 191.21604418969576,
+      "median_fitness": 15953.7,
+      "mean_execution_time": 17.623246272404987,
+      "fitness_values": [
+        16061.7,
+        15953.7,
+        15613.0
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 2,
+        "S2": 2
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15325.0,
+      "worst_fitness": 15521.0,
+      "mean_fitness": 15432.233333333332,
+      "std_fitness": 81.07512291421806,
+      "median_fitness": 15450.7,
+      "mean_execution_time": 17.08406972885132,
+      "fitness_values": [
+        15450.7,
+        15521.0,
+        15325.0
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 2
+      },
+      "total_vehicles": 5,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15176.05,
+      "worst_fitness": 15651.7,
+      "mean_fitness": 15458.15,
+      "std_fitness": 204.02868670851234,
+      "median_fitness": 15546.7,
+      "mean_execution_time": 17.522377332051594,
+      "fitness_values": [
+        15546.7,
+        15176.05,
+        15651.7
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 3
+      },
+      "total_vehicles": 6,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15656.0,
+      "worst_fitness": 15802.7,
+      "mean_fitness": 15715.533333333333,
+      "std_fitness": 62.996948779727454,
+      "median_fitness": 15687.9,
+      "mean_execution_time": 18.01351873079936,
+      "fitness_values": [
+        15802.7,
+        15656.0,
+        15687.9
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 3
+      },
+      "total_vehicles": 7,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15531.0,
+      "worst_fitness": 15670.0,
+      "mean_fitness": 15621.916666666666,
+      "std_fitness": 64.32350961265165,
+      "median_fitness": 15664.75,
+      "mean_execution_time": 18.484845956166584,
+      "fitness_values": [
+        15670.0,
+        15664.75,
+        15531.0
+      ]
+    },
+    {
+      "satellite_capacity": 19500,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 4
+      },
+      "total_vehicles": 8,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15848.05,
+      "worst_fitness": 15975.0,
+      "mean_fitness": 15891.35,
+      "std_fitness": 59.16174157905333,
+      "median_fitness": 15851.0,
+      "mean_execution_time": 18.963020006815594,
+      "fitness_values": [
+        15975.0,
+        15848.05,
+        15851.0
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 1
+      },
+      "total_vehicles": 2,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15460.0,
+      "worst_fitness": 15604.0,
+      "mean_fitness": 15547.0,
+      "std_fitness": 62.49799996799898,
+      "median_fitness": 15577.0,
+      "mean_execution_time": 315.5354073047638,
+      "fitness_values": [
+        15577.0,
+        15460.0,
+        15604.0
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 2
+      },
+      "total_vehicles": 3,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15621.0,
+      "worst_fitness": 15680.7,
+      "mean_fitness": 15659.466666666667,
+      "std_fitness": 27.249016292132595,
+      "median_fitness": 15676.7,
+      "mean_execution_time": 315.4330236117045,
+      "fitness_values": [
+        15621.0,
+        15676.7,
+        15680.7
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 3
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15672.0,
+      "worst_fitness": 15913.0,
+      "mean_fitness": 15830.333333333334,
+      "std_fitness": 111.99503957269219,
+      "median_fitness": 15906.0,
+      "mean_execution_time": 192.7127780119578,
+      "fitness_values": [
+        15913.0,
+        15906.0,
+        15672.0
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 2,
+        "S2": 2
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15222.0,
+      "worst_fitness": 15511.7,
+      "mean_fitness": 15379.9,
+      "std_fitness": 119.70082149537124,
+      "median_fitness": 15406.0,
+      "mean_execution_time": 16.208781003952026,
+      "fitness_values": [
+        15511.7,
+        15406.0,
+        15222.0
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 2
+      },
+      "total_vehicles": 5,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15514.0,
+      "worst_fitness": 15570.05,
+      "mean_fitness": 15542.933333333334,
+      "std_fitness": 22.91834539305886,
+      "median_fitness": 15544.75,
+      "mean_execution_time": 16.73706595102946,
+      "fitness_values": [
+        15514.0,
+        15544.75,
+        15570.05
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 3
+      },
+      "total_vehicles": 6,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15362.75,
+      "worst_fitness": 15659.05,
+      "mean_fitness": 15526.85,
+      "std_fitness": 123.0491229821107,
+      "median_fitness": 15558.75,
+      "mean_execution_time": 17.23763918876648,
+      "fitness_values": [
+        15659.05,
+        15362.75,
+        15558.75
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 3
+      },
+      "total_vehicles": 7,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15367.7,
+      "worst_fitness": 15570.05,
+      "mean_fitness": 15482.25,
+      "std_fitness": 84.74688784846262,
+      "median_fitness": 15509.0,
+      "mean_execution_time": 17.693079312642414,
+      "fitness_values": [
+        15570.05,
+        15509.0,
+        15367.7
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 4
+      },
+      "total_vehicles": 8,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15743.7,
+      "worst_fitness": 15771.849999999999,
+      "mean_fitness": 15753.533333333333,
+      "std_fitness": 12.963560039158628,
+      "median_fitness": 15745.05,
+      "mean_execution_time": 18.16185410817464,
+      "fitness_values": [
+        15745.05,
+        15771.849999999999,
+        15743.7
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 1
+      },
+      "total_vehicles": 2,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15372.7,
+      "worst_fitness": 15643.0,
+      "mean_fitness": 15515.133333333333,
+      "std_fitness": 110.82918789239966,
+      "median_fitness": 15529.7,
+      "mean_execution_time": 15.201698303222656,
+      "fitness_values": [
+        15372.7,
+        15529.7,
+        15643.0
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 2
+      },
+      "total_vehicles": 3,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15523.0,
+      "worst_fitness": 15571.7,
+      "mean_fitness": 15552.800000000001,
+      "std_fitness": 21.323383096185303,
+      "median_fitness": 15563.7,
+      "mean_execution_time": 15.81972829500834,
+      "fitness_values": [
+        15523.0,
+        15563.7,
+        15571.7
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 3
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15747.7,
+      "worst_fitness": 15911.0,
+      "mean_fitness": 15847.566666666666,
+      "std_fitness": 71.47150170211556,
+      "median_fitness": 15884.0,
+      "mean_execution_time": 16.205822626749676,
+      "fitness_values": [
+        15911.0,
+        15884.0,
+        15747.7
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 2,
+        "S2": 2
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15144.7,
+      "worst_fitness": 15596.0,
+      "mean_fitness": 15366.233333333332,
+      "std_fitness": 184.33441229340616,
+      "median_fitness": 15358.0,
+      "mean_execution_time": 16.246973832448322,
+      "fitness_values": [
+        15358.0,
+        15596.0,
+        15144.7
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 2
+      },
+      "total_vehicles": 5,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15378.0,
+      "worst_fitness": 15553.75,
+      "mean_fitness": 15484.6,
+      "std_fitness": 76.48046591559604,
+      "median_fitness": 15522.05,
+      "mean_execution_time": 17.2427183787028,
+      "fitness_values": [
+        15553.75,
+        15522.05,
+        15378.0
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 3
+      },
+      "total_vehicles": 6,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15132.75,
+      "worst_fitness": 15590.05,
+      "mean_fitness": 15353.6,
+      "std_fitness": 187.0175437403308,
+      "median_fitness": 15338.0,
+      "mean_execution_time": 17.90921727816264,
+      "fitness_values": [
+        15590.05,
+        15338.0,
+        15132.75
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 3
+      },
+      "total_vehicles": 7,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15581.05,
+      "worst_fitness": 15802.0,
+      "mean_fitness": 15674.933333333334,
+      "std_fitness": 93.20434837257112,
+      "median_fitness": 15641.75,
+      "mean_execution_time": 18.535598913828533,
+      "fitness_values": [
+        15581.05,
+        15802.0,
+        15641.75
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 4
+      },
+      "total_vehicles": 8,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15553.0,
+      "worst_fitness": 15817.7,
+      "mean_fitness": 15674.916666666666,
+      "std_fitness": 109.06599174607837,
+      "median_fitness": 15654.05,
+      "mean_execution_time": 19.1292823155721,
+      "fitness_values": [
+        15553.0,
+        15817.7,
+        15654.05
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 1
+      },
+      "total_vehicles": 2,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15529.7,
+      "worst_fitness": 15618.0,
+      "mean_fitness": 15568.15,
+      "std_fitness": 36.93862025937959,
+      "median_fitness": 15556.75,
+      "mean_execution_time": 15.996492147445679,
+      "fitness_values": [
+        15618.0,
+        15529.7,
+        15556.75
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 2
+      },
+      "total_vehicles": 3,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15404.0,
+      "worst_fitness": 15669.05,
+      "mean_fitness": 15562.916666666666,
+      "std_fitness": 114.46232519431388,
+      "median_fitness": 15615.7,
+      "mean_execution_time": 16.546512365341187,
+      "fitness_values": [
+        15404.0,
+        15669.05,
+        15615.7
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 3
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15698.05,
+      "worst_fitness": 15802.0,
+      "mean_fitness": 15743.016666666668,
+      "std_fitness": 43.57943577218783,
+      "median_fitness": 15729.0,
+      "mean_execution_time": 17.571465412775677,
+      "fitness_values": [
+        15802.0,
+        15698.05,
+        15729.0
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 2,
+        "S2": 2
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15363.0,
+      "worst_fitness": 15500.7,
+      "mean_fitness": 15450.466666666667,
+      "std_fitness": 62.07556327215725,
+      "median_fitness": 15487.7,
+      "mean_execution_time": 17.958351691563923,
+      "fitness_values": [
+        15487.7,
+        15500.7,
+        15363.0
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 2
+      },
+      "total_vehicles": 5,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15348.75,
+      "worst_fitness": 15449.0,
+      "mean_fitness": 15400.5,
+      "std_fitness": 40.991360878442016,
+      "median_fitness": 15403.75,
+      "mean_execution_time": 17.58713936805725,
+      "fitness_values": [
+        15449.0,
+        15348.75,
+        15403.75
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 3
+      },
+      "total_vehicles": 6,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15408.8,
+      "worst_fitness": 15592.75,
+      "mean_fitness": 15483.199999999999,
+      "std_fitness": 79.10348707020898,
+      "median_fitness": 15448.05,
+      "mean_execution_time": 18.002947966257732,
+      "fitness_values": [
+        15448.05,
+        15408.8,
+        15592.75
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 3
+      },
+      "total_vehicles": 7,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15681.0,
+      "worst_fitness": 15788.849999999999,
+      "mean_fitness": 15720.516666666668,
+      "std_fitness": 48.51601682835071,
+      "median_fitness": 15691.7,
+      "mean_execution_time": 18.444471677144367,
+      "fitness_values": [
+        15788.849999999999,
+        15681.0,
+        15691.7
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 4
+      },
+      "total_vehicles": 8,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15582.05,
+      "worst_fitness": 15796.05,
+      "mean_fitness": 15662.049999999997,
+      "std_fitness": 95.34498763263157,
+      "median_fitness": 15608.05,
+      "mean_execution_time": 18.865320920944214,
+      "fitness_values": [
+        15582.05,
+        15796.05,
+        15608.05
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 1
+      },
+      "total_vehicles": 2,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15374.7,
+      "worst_fitness": 15594.0,
+      "mean_fitness": 15489.9,
+      "std_fitness": 89.87224265589428,
+      "median_fitness": 15501.0,
+      "mean_execution_time": 15.720736344655355,
+      "fitness_values": [
+        15374.7,
+        15594.0,
+        15501.0
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 2
+      },
+      "total_vehicles": 3,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15476.0,
+      "worst_fitness": 15655.75,
+      "mean_fitness": 15560.583333333334,
+      "std_fitness": 73.76322856877191,
+      "median_fitness": 15550.0,
+      "mean_execution_time": 16.307632128397625,
+      "fitness_values": [
+        15476.0,
+        15655.75,
+        15550.0
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 3
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15575.7,
+      "worst_fitness": 15810.05,
+      "mean_fitness": 15671.483333333332,
+      "std_fitness": 100.3420511162797,
+      "median_fitness": 15628.7,
+      "mean_execution_time": 16.89863665898641,
+      "fitness_values": [
+        15628.7,
+        15575.7,
+        15810.05
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 2,
+        "S2": 2
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15287.05,
+      "worst_fitness": 15436.849999999999,
+      "mean_fitness": 15378.316666666666,
+      "std_fitness": 65.38915982196279,
+      "median_fitness": 15411.05,
+      "mean_execution_time": 17.375430901845295,
+      "fitness_values": [
+        15411.05,
+        15287.05,
+        15436.849999999999
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 2
+      },
+      "total_vehicles": 5,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15287.55,
+      "worst_fitness": 15541.0,
+      "mean_fitness": 15452.416666666666,
+      "std_fitness": 116.6864340396475,
+      "median_fitness": 15528.7,
+      "mean_execution_time": 18.827924331029255,
+      "fitness_values": [
+        15528.7,
+        15541.0,
+        15287.55
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 3
+      },
+      "total_vehicles": 6,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15387.0,
+      "worst_fitness": 15791.8,
+      "mean_fitness": 15573.85,
+      "std_fitness": 166.71566113196013,
+      "median_fitness": 15542.75,
+      "mean_execution_time": 19.58391483624776,
+      "fitness_values": [
+        15791.8,
+        15542.75,
+        15387.0
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 3
+      },
+      "total_vehicles": 7,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15495.7,
+      "worst_fitness": 15644.7,
+      "mean_fitness": 15558.816666666666,
+      "std_fitness": 62.92318509279583,
+      "median_fitness": 15536.05,
+      "mean_execution_time": 19.336145718892414,
+      "fitness_values": [
+        15495.7,
+        15536.05,
+        15644.7
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 4
+      },
+      "total_vehicles": 8,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15515.05,
+      "worst_fitness": 15705.05,
+      "mean_fitness": 15630.716666666665,
+      "std_fitness": 82.89082511888084,
+      "median_fitness": 15672.05,
+      "mean_execution_time": 19.087168137232464,
+      "fitness_values": [
+        15672.05,
+        15705.05,
+        15515.05
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 1
+      },
+      "total_vehicles": 2,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15075.0,
+      "worst_fitness": 15554.0,
+      "mean_fitness": 15337.0,
+      "std_fitness": 198.12285750681738,
+      "median_fitness": 15382.0,
+      "mean_execution_time": 15.955614964167276,
+      "fitness_values": [
+        15075.0,
+        15382.0,
+        15554.0
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 2
+      },
+      "total_vehicles": 3,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15466.7,
+      "worst_fitness": 15530.7,
+      "mean_fitness": 15501.800000000001,
+      "std_fitness": 26.493143767145938,
+      "median_fitness": 15508.0,
+      "mean_execution_time": 18.457743724187214,
+      "fitness_values": [
+        15466.7,
+        15508.0,
+        15530.7
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 3
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15730.7,
+      "worst_fitness": 15824.7,
+      "mean_fitness": 15771.466666666667,
+      "std_fitness": 39.3748086415104,
+      "median_fitness": 15759.0,
+      "mean_execution_time": 16.7039536635081,
+      "fitness_values": [
+        15759.0,
+        15730.7,
+        15824.7
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 2,
+        "S2": 2
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15140.7,
+      "worst_fitness": 15591.05,
+      "mean_fitness": 15412.816666666666,
+      "std_fitness": 195.47265935561265,
+      "median_fitness": 15506.7,
+      "mean_execution_time": 16.4041481812795,
+      "fitness_values": [
+        15591.05,
+        15140.7,
+        15506.7
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 2
+      },
+      "total_vehicles": 5,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15369.75,
+      "worst_fitness": 15599.7,
+      "mean_fitness": 15481.816666666666,
+      "std_fitness": 93.96675239442732,
+      "median_fitness": 15476.0,
+      "mean_execution_time": 16.83990200360616,
+      "fitness_values": [
+        15599.7,
+        15369.75,
+        15476.0
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 3
+      },
+      "total_vehicles": 6,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15526.75,
+      "worst_fitness": 15811.0,
+      "mean_fitness": 15664.15,
+      "std_fitness": 116.23680570284094,
+      "median_fitness": 15654.7,
+      "mean_execution_time": 17.314652522404987,
+      "fitness_values": [
+        15811.0,
+        15526.75,
+        15654.7
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 3
+      },
+      "total_vehicles": 7,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15679.05,
+      "worst_fitness": 15727.05,
+      "mean_fitness": 15702.383333333331,
+      "std_fitness": 19.618585292749547,
+      "median_fitness": 15701.05,
+      "mean_execution_time": 17.726013501485188,
+      "fitness_values": [
+        15727.05,
+        15701.05,
+        15679.05
+      ]
+    },
+    {
+      "satellite_capacity": 20000,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 4
+      },
+      "total_vehicles": 8,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15741.8,
+      "worst_fitness": 15851.05,
+      "mean_fitness": 15801.966666666665,
+      "std_fitness": 45.28444054590445,
+      "median_fitness": 15813.05,
+      "mean_execution_time": 18.205811103185017,
+      "fitness_values": [
+        15813.05,
+        15741.8,
+        15851.05
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 1
+      },
+      "total_vehicles": 2,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15368.0,
+      "worst_fitness": 15497.05,
+      "mean_fitness": 15448.35,
+      "std_fitness": 57.24082168056852,
+      "median_fitness": 15480.0,
+      "mean_execution_time": 15.089914321899414,
+      "fitness_values": [
+        15497.05,
+        15480.0,
+        15368.0
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 2
+      },
+      "total_vehicles": 3,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15253.7,
+      "worst_fitness": 15698.7,
+      "mean_fitness": 15514.133333333333,
+      "std_fitness": 189.42555852424502,
+      "median_fitness": 15590.0,
+      "mean_execution_time": 16.615092992782593,
+      "fitness_values": [
+        15253.7,
+        15590.0,
+        15698.7
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 3
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15565.7,
+      "worst_fitness": 15781.0,
+      "mean_fitness": 15673.466666666667,
+      "std_fitness": 87.89601179171235,
+      "median_fitness": 15673.7,
+      "mean_execution_time": 17.495043357213337,
+      "fitness_values": [
+        15781.0,
+        15673.7,
+        15565.7
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 2,
+        "S2": 2
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15323.0,
+      "worst_fitness": 15494.75,
+      "mean_fitness": 15408.15,
+      "std_fitness": 70.12413992342437,
+      "median_fitness": 15406.7,
+      "mean_execution_time": 16.94206174214681,
+      "fitness_values": [
+        15406.7,
+        15323.0,
+        15494.75
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 2
+      },
+      "total_vehicles": 5,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15137.0,
+      "worst_fitness": 15574.7,
+      "mean_fitness": 15322.133333333333,
+      "std_fitness": 184.9428079764723,
+      "median_fitness": 15254.7,
+      "mean_execution_time": 17.389538764953613,
+      "fitness_values": [
+        15254.7,
+        15137.0,
+        15574.7
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 3
+      },
+      "total_vehicles": 6,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15505.05,
+      "worst_fitness": 15648.0,
+      "mean_fitness": 15567.25,
+      "std_fitness": 59.81500647830794,
+      "median_fitness": 15548.7,
+      "mean_execution_time": 17.475229342778523,
+      "fitness_values": [
+        15548.7,
+        15648.0,
+        15505.05
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 3
+      },
+      "total_vehicles": 7,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15503.05,
+      "worst_fitness": 15713.05,
+      "mean_fitness": 15640.6,
+      "std_fitness": 97.3088125505602,
+      "median_fitness": 15705.7,
+      "mean_execution_time": 17.892308394114178,
+      "fitness_values": [
+        15705.7,
+        15713.05,
+        15503.05
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 4
+      },
+      "total_vehicles": 8,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15572.05,
+      "worst_fitness": 15798.0,
+      "mean_fitness": 15719.033333333333,
+      "std_fitness": 104.02900503652299,
+      "median_fitness": 15787.05,
+      "mean_execution_time": 18.24433906873067,
+      "fitness_values": [
+        15787.05,
+        15572.05,
+        15798.0
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 1
+      },
+      "total_vehicles": 2,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15413.75,
+      "worst_fitness": 15467.8,
+      "mean_fitness": 15436.75,
+      "std_fitness": 22.788191386475756,
+      "median_fitness": 15428.7,
+      "mean_execution_time": 15.169125954310099,
+      "fitness_values": [
+        15413.75,
+        15467.8,
+        15428.7
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 2
+      },
+      "total_vehicles": 3,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15242.7,
+      "worst_fitness": 15646.0,
+      "mean_fitness": 15478.133333333333,
+      "std_fitness": 171.43835302781233,
+      "median_fitness": 15545.7,
+      "mean_execution_time": 15.723806937535604,
+      "fitness_values": [
+        15646.0,
+        15242.7,
+        15545.7
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 3
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15605.0,
+      "worst_fitness": 15758.0,
+      "mean_fitness": 15684.0,
+      "std_fitness": 62.56196927846821,
+      "median_fitness": 15689.0,
+      "mean_execution_time": 16.242813110351562,
+      "fitness_values": [
+        15758.0,
+        15689.0,
+        15605.0
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 2,
+        "S2": 2
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15444.05,
+      "worst_fitness": 15555.7,
+      "mean_fitness": 15487.183333333334,
+      "std_fitness": 48.98752108672461,
+      "median_fitness": 15461.8,
+      "mean_execution_time": 18.112309376398724,
+      "fitness_values": [
+        15555.7,
+        15461.8,
+        15444.05
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 2
+      },
+      "total_vehicles": 5,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15373.7,
+      "worst_fitness": 15413.0,
+      "mean_fitness": 15393.916666666666,
+      "std_fitness": 16.06415955542685,
+      "median_fitness": 15395.05,
+      "mean_execution_time": 16.938067038853962,
+      "fitness_values": [
+        15413.0,
+        15373.7,
+        15395.05
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 3
+      },
+      "total_vehicles": 6,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15199.05,
+      "worst_fitness": 15649.0,
+      "mean_fitness": 15443.583333333334,
+      "std_fitness": 185.7620984545081,
+      "median_fitness": 15482.7,
+      "mean_execution_time": 17.346670548121136,
+      "fitness_values": [
+        15199.05,
+        15482.7,
+        15649.0
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 3
+      },
+      "total_vehicles": 7,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15538.0,
+      "worst_fitness": 15768.0,
+      "mean_fitness": 15615.683333333334,
+      "std_fitness": 107.71134521901081,
+      "median_fitness": 15541.05,
+      "mean_execution_time": 17.724758227666218,
+      "fitness_values": [
+        15768.0,
+        15538.0,
+        15541.05
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 4
+      },
+      "total_vehicles": 8,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15537.0,
+      "worst_fitness": 15886.05,
+      "mean_fitness": 15692.35,
+      "std_fitness": 145.05635111914233,
+      "median_fitness": 15654.0,
+      "mean_execution_time": 18.17808731396993,
+      "fitness_values": [
+        15537.0,
+        15886.05,
+        15654.0
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 1
+      },
+      "total_vehicles": 2,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15211.0,
+      "worst_fitness": 15593.85,
+      "mean_fitness": 15436.783333333333,
+      "std_fitness": 163.67654247189972,
+      "median_fitness": 15505.5,
+      "mean_execution_time": 15.122777303059896,
+      "fitness_values": [
+        15505.5,
+        15593.85,
+        15211.0
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 2
+      },
+      "total_vehicles": 3,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15370.7,
+      "worst_fitness": 15622.7,
+      "mean_fitness": 15480.700000000003,
+      "std_fitness": 105.33755265810954,
+      "median_fitness": 15448.7,
+      "mean_execution_time": 15.71712334950765,
+      "fitness_values": [
+        15622.7,
+        15448.7,
+        15370.7
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 3
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15611.7,
+      "worst_fitness": 15753.7,
+      "mean_fitness": 15705.800000000001,
+      "std_fitness": 66.54236745613012,
+      "median_fitness": 15752.0,
+      "mean_execution_time": 16.241284052530926,
+      "fitness_values": [
+        15753.7,
+        15752.0,
+        15611.7
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 2,
+        "S2": 2
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15206.75,
+      "worst_fitness": 15378.0,
+      "mean_fitness": 15295.6,
+      "std_fitness": 70.0611280716109,
+      "median_fitness": 15302.05,
+      "mean_execution_time": 16.29415225982666,
+      "fitness_values": [
+        15206.75,
+        15378.0,
+        15302.05
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 2
+      },
+      "total_vehicles": 5,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15374.05,
+      "worst_fitness": 15557.849999999999,
+      "mean_fitness": 15472.316666666666,
+      "std_fitness": 75.57430486319748,
+      "median_fitness": 15485.05,
+      "mean_execution_time": 16.88804268836975,
+      "fitness_values": [
+        15557.849999999999,
+        15485.05,
+        15374.05
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 3
+      },
+      "total_vehicles": 6,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15534.75,
+      "worst_fitness": 15627.0,
+      "mean_fitness": 15573.5,
+      "std_fitness": 39.07844674497696,
+      "median_fitness": 15558.75,
+      "mean_execution_time": 17.27590266863505,
+      "fitness_values": [
+        15534.75,
+        15627.0,
+        15558.75
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 3
+      },
+      "total_vehicles": 7,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15670.05,
+      "worst_fitness": 15702.05,
+      "mean_fitness": 15690.699999999999,
+      "std_fitness": 14.625719355528163,
+      "median_fitness": 15700.0,
+      "mean_execution_time": 17.769355932871502,
+      "fitness_values": [
+        15670.05,
+        15700.0,
+        15702.05
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 4
+      },
+      "total_vehicles": 8,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15460.05,
+      "worst_fitness": 15903.0,
+      "mean_fitness": 15693.033333333333,
+      "std_fitness": 181.56449879374085,
+      "median_fitness": 15716.05,
+      "mean_execution_time": 18.218062321345013,
+      "fitness_values": [
+        15460.05,
+        15903.0,
+        15716.05
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 1
+      },
+      "total_vehicles": 2,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15459.0,
+      "worst_fitness": 15511.0,
+      "mean_fitness": 15486.666666666666,
+      "std_fitness": 21.35935912480106,
+      "median_fitness": 15490.0,
+      "mean_execution_time": 15.141234000523886,
+      "fitness_values": [
+        15459.0,
+        15490.0,
+        15511.0
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 2
+      },
+      "total_vehicles": 3,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15475.0,
+      "worst_fitness": 15697.05,
+      "mean_fitness": 15607.35,
+      "std_fitness": 95.53644156376468,
+      "median_fitness": 15650.0,
+      "mean_execution_time": 15.703116575876871,
+      "fitness_values": [
+        15650.0,
+        15697.05,
+        15475.0
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 3
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15599.75,
+      "worst_fitness": 15739.05,
+      "mean_fitness": 15646.5,
+      "std_fitness": 65.44388181233292,
+      "median_fitness": 15600.7,
+      "mean_execution_time": 16.5202313264211,
+      "fitness_values": [
+        15739.05,
+        15599.75,
+        15600.7
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 2,
+        "S2": 2
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15194.05,
+      "worst_fitness": 15456.0,
+      "mean_fitness": 15365.35,
+      "std_fitness": 121.19617018151501,
+      "median_fitness": 15446.0,
+      "mean_execution_time": 17.70474664370219,
+      "fitness_values": [
+        15446.0,
+        15194.05,
+        15456.0
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 2
+      },
+      "total_vehicles": 5,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15213.0,
+      "worst_fitness": 15522.7,
+      "mean_fitness": 15379.566666666666,
+      "std_fitness": 127.51565481234957,
+      "median_fitness": 15403.0,
+      "mean_execution_time": 17.8468177318573,
+      "fitness_values": [
+        15522.7,
+        15213.0,
+        15403.0
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 3
+      },
+      "total_vehicles": 6,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15492.0,
+      "worst_fitness": 15567.05,
+      "mean_fitness": 15528.366666666667,
+      "std_fitness": 30.682794672077563,
+      "median_fitness": 15526.05,
+      "mean_execution_time": 18.936166604359943,
+      "fitness_values": [
+        15567.05,
+        15492.0,
+        15526.05
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 3
+      },
+      "total_vehicles": 7,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15331.7,
+      "worst_fitness": 15643.849999999999,
+      "mean_fitness": 15515.199999999999,
+      "std_fitness": 133.20609971018504,
+      "median_fitness": 15570.05,
+      "mean_execution_time": 21.157041708628338,
+      "fitness_values": [
+        15570.05,
+        15643.849999999999,
+        15331.7
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 4
+      },
+      "total_vehicles": 8,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15441.05,
+      "worst_fitness": 15726.05,
+      "mean_fitness": 15593.6,
+      "std_fitness": 117.21563462269025,
+      "median_fitness": 15613.7,
+      "mean_execution_time": 18.936691681543987,
+      "fitness_values": [
+        15441.05,
+        15726.05,
+        15613.7
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 1
+      },
+      "total_vehicles": 2,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15408.0,
+      "worst_fitness": 15525.7,
+      "mean_fitness": 15476.9,
+      "std_fitness": 50.10874840451206,
+      "median_fitness": 15497.0,
+      "mean_execution_time": 15.202078978220621,
+      "fitness_values": [
+        15408.0,
+        15525.7,
+        15497.0
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 2
+      },
+      "total_vehicles": 3,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15476.05,
+      "worst_fitness": 15666.0,
+      "mean_fitness": 15593.583333333334,
+      "std_fitness": 83.85259222124442,
+      "median_fitness": 15638.7,
+      "mean_execution_time": 15.74863338470459,
+      "fitness_values": [
+        15638.7,
+        15476.05,
+        15666.0
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 3
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15645.05,
+      "worst_fitness": 15758.55,
+      "mean_fitness": 15700.533333333333,
+      "std_fitness": 46.370794208807276,
+      "median_fitness": 15698.0,
+      "mean_execution_time": 16.2563263575236,
+      "fitness_values": [
+        15698.0,
+        15758.55,
+        15645.05
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 2,
+        "S2": 2
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15440.7,
+      "worst_fitness": 15577.7,
+      "mean_fitness": 15488.466666666667,
+      "std_fitness": 63.14989223180756,
+      "median_fitness": 15447.0,
+      "mean_execution_time": 16.270622730255127,
+      "fitness_values": [
+        15577.7,
+        15440.7,
+        15447.0
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 2
+      },
+      "total_vehicles": 5,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15205.849999999999,
+      "worst_fitness": 15435.05,
+      "mean_fitness": 15311.549999999997,
+      "std_fitness": 94.4132405968572,
+      "median_fitness": 15293.75,
+      "mean_execution_time": 16.769301414489746,
+      "fitness_values": [
+        15293.75,
+        15205.849999999999,
+        15435.05
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 3
+      },
+      "total_vehicles": 6,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15597.05,
+      "worst_fitness": 15640.7,
+      "mean_fitness": 15620.933333333334,
+      "std_fitness": 18.05622391925403,
+      "median_fitness": 15625.05,
+      "mean_execution_time": 17.25314728418986,
+      "fitness_values": [
+        15597.05,
+        15640.7,
+        15625.05
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 3
+      },
+      "total_vehicles": 7,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15348.7,
+      "worst_fitness": 15548.0,
+      "mean_fitness": 15459.9,
+      "std_fitness": 82.98726809979114,
+      "median_fitness": 15483.0,
+      "mean_execution_time": 17.714618682861328,
+      "fitness_values": [
+        15483.0,
+        15548.0,
+        15348.7
+      ]
+    },
+    {
+      "satellite_capacity": 20500,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 4
+      },
+      "total_vehicles": 8,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15455.0,
+      "worst_fitness": 15736.05,
+      "mean_fitness": 15608.699999999999,
+      "std_fitness": 116.24117887679301,
+      "median_fitness": 15635.05,
+      "mean_execution_time": 18.1892884572347,
+      "fitness_values": [
+        15635.05,
+        15736.05,
+        15455.0
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 1
+      },
+      "total_vehicles": 2,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15286.7,
+      "worst_fitness": 15545.0,
+      "mean_fitness": 15416.583333333334,
+      "std_fitness": 105.45563311438366,
+      "median_fitness": 15418.05,
+      "mean_execution_time": 15.101607402165731,
+      "fitness_values": [
+        15418.05,
+        15545.0,
+        15286.7
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 2
+      },
+      "total_vehicles": 3,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15478.0,
+      "worst_fitness": 15557.7,
+      "mean_fitness": 15513.466666666667,
+      "std_fitness": 33.12263408741681,
+      "median_fitness": 15504.7,
+      "mean_execution_time": 15.68687399228414,
+      "fitness_values": [
+        15504.7,
+        15478.0,
+        15557.7
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 3
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15751.7,
+      "worst_fitness": 15861.7,
+      "mean_fitness": 15790.800000000001,
+      "std_fitness": 50.222372172834305,
+      "median_fitness": 15759.0,
+      "mean_execution_time": 16.222026189168293,
+      "fitness_values": [
+        15759.0,
+        15751.7,
+        15861.7
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 2,
+        "S2": 2
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15309.75,
+      "worst_fitness": 15447.75,
+      "mean_fitness": 15397.183333333334,
+      "std_fitness": 62.07717419112711,
+      "median_fitness": 15434.05,
+      "mean_execution_time": 16.27271310488383,
+      "fitness_values": [
+        15309.75,
+        15447.75,
+        15434.05
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 2
+      },
+      "total_vehicles": 5,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15123.0,
+      "worst_fitness": 15378.0,
+      "mean_fitness": 15277.35,
+      "std_fitness": 110.81220600637808,
+      "median_fitness": 15331.05,
+      "mean_execution_time": 16.758970340092976,
+      "fitness_values": [
+        15378.0,
+        15123.0,
+        15331.05
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 3
+      },
+      "total_vehicles": 6,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15189.75,
+      "worst_fitness": 15520.05,
+      "mean_fitness": 15391.283333333333,
+      "std_fitness": 144.32778280320386,
+      "median_fitness": 15464.05,
+      "mean_execution_time": 17.25455315907796,
+      "fitness_values": [
+        15520.05,
+        15189.75,
+        15464.05
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 3
+      },
+      "total_vehicles": 7,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15395.7,
+      "worst_fitness": 15567.75,
+      "mean_fitness": 15501.433333333334,
+      "std_fitness": 75.5669938237288,
+      "median_fitness": 15540.849999999999,
+      "mean_execution_time": 17.76282564798991,
+      "fitness_values": [
+        15395.7,
+        15540.849999999999,
+        15567.75
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 950,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 4
+      },
+      "total_vehicles": 8,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15490.75,
+      "worst_fitness": 15704.7,
+      "mean_fitness": 15575.666666666666,
+      "std_fitness": 92.7482644341965,
+      "median_fitness": 15531.55,
+      "mean_execution_time": 18.168651739756267,
+      "fitness_values": [
+        15531.55,
+        15704.7,
+        15490.75
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 1
+      },
+      "total_vehicles": 2,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15400.0,
+      "worst_fitness": 15668.0,
+      "mean_fitness": 15521.0,
+      "std_fitness": 110.94443053469006,
+      "median_fitness": 15495.0,
+      "mean_execution_time": 15.098910013834635,
+      "fitness_values": [
+        15668.0,
+        15400.0,
+        15495.0
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 2
+      },
+      "total_vehicles": 3,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15532.0,
+      "worst_fitness": 15639.0,
+      "mean_fitness": 15597.9,
+      "std_fitness": 47.071081001679566,
+      "median_fitness": 15622.7,
+      "mean_execution_time": 15.686644951502482,
+      "fitness_values": [
+        15639.0,
+        15622.7,
+        15532.0
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 3
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15703.0,
+      "worst_fitness": 15874.0,
+      "mean_fitness": 15788.666666666666,
+      "std_fitness": 69.81085557100383,
+      "median_fitness": 15789.0,
+      "mean_execution_time": 16.22178077697754,
+      "fitness_values": [
+        15874.0,
+        15789.0,
+        15703.0
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 2,
+        "S2": 2
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15410.7,
+      "worst_fitness": 15566.0,
+      "mean_fitness": 15477.233333333332,
+      "std_fitness": 65.32107027768444,
+      "median_fitness": 15455.0,
+      "mean_execution_time": 16.259975989659626,
+      "fitness_values": [
+        15455.0,
+        15410.7,
+        15566.0
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 2
+      },
+      "total_vehicles": 5,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15251.05,
+      "worst_fitness": 15566.05,
+      "mean_fitness": 15439.716666666665,
+      "std_fitness": 135.94198108833865,
+      "median_fitness": 15502.05,
+      "mean_execution_time": 16.76481493314107,
+      "fitness_values": [
+        15251.05,
+        15566.05,
+        15502.05
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 3
+      },
+      "total_vehicles": 6,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15509.05,
+      "worst_fitness": 15646.05,
+      "mean_fitness": 15598.283333333333,
+      "std_fitness": 63.14989223180756,
+      "median_fitness": 15639.75,
+      "mean_execution_time": 17.23046127955119,
+      "fitness_values": [
+        15639.75,
+        15646.05,
+        15509.05
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 3
+      },
+      "total_vehicles": 7,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15269.05,
+      "worst_fitness": 15679.75,
+      "mean_fitness": 15453.6,
+      "std_fitness": 170.22836132677799,
+      "median_fitness": 15412.0,
+      "mean_execution_time": 17.699512640635174,
+      "fitness_values": [
+        15269.05,
+        15679.75,
+        15412.0
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 975,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 4
+      },
+      "total_vehicles": 8,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15554.0,
+      "worst_fitness": 15644.7,
+      "mean_fitness": 15585.25,
+      "std_fitness": 42.05593497553834,
+      "median_fitness": 15557.05,
+      "mean_execution_time": 18.172727743784588,
+      "fitness_values": [
+        15554.0,
+        15644.7,
+        15557.05
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 1
+      },
+      "total_vehicles": 2,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15305.05,
+      "worst_fitness": 15504.0,
+      "mean_fitness": 15400.35,
+      "std_fitness": 81.4353219841778,
+      "median_fitness": 15392.0,
+      "mean_execution_time": 15.12344741821289,
+      "fitness_values": [
+        15305.05,
+        15392.0,
+        15504.0
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 2
+      },
+      "total_vehicles": 3,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15280.05,
+      "worst_fitness": 15516.7,
+      "mean_fitness": 15432.15,
+      "std_fitness": 107.77463368839076,
+      "median_fitness": 15499.7,
+      "mean_execution_time": 15.71731702486674,
+      "fitness_values": [
+        15280.05,
+        15499.7,
+        15516.7
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 3
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15396.7,
+      "worst_fitness": 15669.0,
+      "mean_fitness": 15573.133333333333,
+      "std_fitness": 124.91347227403259,
+      "median_fitness": 15653.7,
+      "mean_execution_time": 16.26286729176839,
+      "fitness_values": [
+        15653.7,
+        15396.7,
+        15669.0
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 2,
+        "S2": 2
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15306.75,
+      "worst_fitness": 15504.0,
+      "mean_fitness": 15428.15,
+      "std_fitness": 86.7294356029141,
+      "median_fitness": 15473.7,
+      "mean_execution_time": 16.276121218999226,
+      "fitness_values": [
+        15473.7,
+        15306.75,
+        15504.0
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 2
+      },
+      "total_vehicles": 5,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15380.0,
+      "worst_fitness": 15476.7,
+      "mean_fitness": 15415.816666666666,
+      "std_fitness": 43.274132637819385,
+      "median_fitness": 15390.75,
+      "mean_execution_time": 16.75718855857849,
+      "fitness_values": [
+        15476.7,
+        15380.0,
+        15390.75
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 3
+      },
+      "total_vehicles": 6,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15251.7,
+      "worst_fitness": 15620.75,
+      "mean_fitness": 15466.5,
+      "std_fitness": 156.62950445770596,
+      "median_fitness": 15527.05,
+      "mean_execution_time": 17.240449984868366,
+      "fitness_values": [
+        15620.75,
+        15527.05,
+        15251.7
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 3
+      },
+      "total_vehicles": 7,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15539.75,
+      "worst_fitness": 15612.05,
+      "mean_fitness": 15565.933333333334,
+      "std_fitness": 32.709079609320504,
+      "median_fitness": 15546.0,
+      "mean_execution_time": 17.70942997932434,
+      "fitness_values": [
+        15539.75,
+        15612.05,
+        15546.0
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 1000,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 4
+      },
+      "total_vehicles": 8,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15606.0,
+      "worst_fitness": 15717.05,
+      "mean_fitness": 15666.033333333333,
+      "std_fitness": 45.78209863642695,
+      "median_fitness": 15675.05,
+      "mean_execution_time": 18.17929259936015,
+      "fitness_values": [
+        15717.05,
+        15606.0,
+        15675.05
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 1
+      },
+      "total_vehicles": 2,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15350.7,
+      "worst_fitness": 15500.0,
+      "mean_fitness": 15429.566666666666,
+      "std_fitness": 61.24248706757576,
+      "median_fitness": 15438.0,
+      "mean_execution_time": 15.12515664100647,
+      "fitness_values": [
+        15500.0,
+        15438.0,
+        15350.7
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 2
+      },
+      "total_vehicles": 3,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15458.0,
+      "worst_fitness": 15606.8,
+      "mean_fitness": 15545.166666666666,
+      "std_fitness": 63.37361876645153,
+      "median_fitness": 15570.7,
+      "mean_execution_time": 15.69894027709961,
+      "fitness_values": [
+        15570.7,
+        15606.8,
+        15458.0
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 3
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15638.0,
+      "worst_fitness": 15863.0,
+      "mean_fitness": 15740.35,
+      "std_fitness": 92.97066741720212,
+      "median_fitness": 15720.05,
+      "mean_execution_time": 16.20434562365214,
+      "fitness_values": [
+        15638.0,
+        15863.0,
+        15720.05
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 2,
+        "S2": 2
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15261.75,
+      "worst_fitness": 15497.7,
+      "mean_fitness": 15353.15,
+      "std_fitness": 103.39823499460748,
+      "median_fitness": 15300.0,
+      "mean_execution_time": 16.27713664372762,
+      "fitness_values": [
+        15300.0,
+        15261.75,
+        15497.7
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 2
+      },
+      "total_vehicles": 5,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15218.8,
+      "worst_fitness": 15311.05,
+      "mean_fitness": 15279.299999999997,
+      "std_fitness": 42.7974882440547,
+      "median_fitness": 15308.05,
+      "mean_execution_time": 16.751088698705036,
+      "fitness_values": [
+        15308.05,
+        15311.05,
+        15218.8
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 3
+      },
+      "total_vehicles": 6,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15310.7,
+      "worst_fitness": 15476.75,
+      "mean_fitness": 15418.816666666666,
+      "std_fitness": 76.51547047638255,
+      "median_fitness": 15469.0,
+      "mean_execution_time": 17.244949340820312,
+      "fitness_values": [
+        15469.0,
+        15310.7,
+        15476.75
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 3
+      },
+      "total_vehicles": 7,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15540.849999999999,
+      "worst_fitness": 15611.05,
+      "mean_fitness": 15569.299999999997,
+      "std_fitness": 30.162642457185466,
+      "median_fitness": 15556.0,
+      "mean_execution_time": 17.69340642293294,
+      "fitness_values": [
+        15556.0,
+        15540.849999999999,
+        15611.05
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 1050,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 4
+      },
+      "total_vehicles": 8,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15548.7,
+      "worst_fitness": 15854.05,
+      "mean_fitness": 15743.833333333334,
+      "std_fitness": 138.36614671065826,
+      "median_fitness": 15828.75,
+      "mean_execution_time": 18.173046906789143,
+      "fitness_values": [
+        15828.75,
+        15548.7,
+        15854.05
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 1
+      },
+      "total_vehicles": 2,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15363.75,
+      "worst_fitness": 15521.0,
+      "mean_fitness": 15460.916666666666,
+      "std_fitness": 69.34585223517138,
+      "median_fitness": 15498.0,
+      "mean_execution_time": 15.189033110936483,
+      "fitness_values": [
+        15498.0,
+        15363.75,
+        15521.0
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 2
+      },
+      "total_vehicles": 3,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15433.0,
+      "worst_fitness": 15555.7,
+      "mean_fitness": 15481.800000000001,
+      "std_fitness": 53.143390934339365,
+      "median_fitness": 15456.7,
+      "mean_execution_time": 15.722721338272095,
+      "fitness_values": [
+        15433.0,
+        15555.7,
+        15456.7
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 1,
+        "S2": 3
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15340.7,
+      "worst_fitness": 15712.05,
+      "mean_fitness": 15540.583333333334,
+      "std_fitness": 152.92881968055826,
+      "median_fitness": 15569.0,
+      "mean_execution_time": 16.23022770881653,
+      "fitness_values": [
+        15340.7,
+        15712.05,
+        15569.0
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 2,
+        "S2": 2
+      },
+      "total_vehicles": 4,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15358.0,
+      "worst_fitness": 15430.05,
+      "mean_fitness": 15384.85,
+      "std_fitness": 32.149053900023944,
+      "median_fitness": 15366.5,
+      "mean_execution_time": 16.28163234392802,
+      "fitness_values": [
+        15358.0,
+        15366.5,
+        15430.05
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 2
+      },
+      "total_vehicles": 5,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15299.0,
+      "worst_fitness": 15570.05,
+      "mean_fitness": 15424.033333333333,
+      "std_fitness": 111.64602047940996,
+      "median_fitness": 15403.05,
+      "mean_execution_time": 16.755725701649983,
+      "fitness_values": [
+        15570.05,
+        15299.0,
+        15403.05
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 3,
+        "S2": 3
+      },
+      "total_vehicles": 6,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15497.75,
+      "worst_fitness": 15630.75,
+      "mean_fitness": 15569.4,
+      "std_fitness": 54.78331558665167,
+      "median_fitness": 15579.7,
+      "mean_execution_time": 17.246587991714478,
+      "fitness_values": [
+        15579.7,
+        15630.75,
+        15497.75
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 3
+      },
+      "total_vehicles": 7,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15496.05,
+      "worst_fitness": 15712.0,
+      "mean_fitness": 15597.699999999999,
+      "std_fitness": 88.6138345105702,
+      "median_fitness": 15585.05,
+      "mean_execution_time": 17.803410212198894,
+      "fitness_values": [
+        15585.05,
+        15712.0,
+        15496.05
+      ]
+    },
+    {
+      "satellite_capacity": 21000,
+      "secondary_capacity": 1100,
+      "num_vehicles_per_satellite": {
+        "S1": 4,
+        "S2": 4
+      },
+      "total_vehicles": 8,
+      "successful_runs": 3,
+      "total_runs": 3,
+      "success_rate": 1.0,
+      "best_fitness": 15577.0,
+      "worst_fitness": 15825.05,
+      "mean_fitness": 15663.683333333334,
+      "std_fitness": 114.2085835458766,
+      "median_fitness": 15589.0,
+      "mean_execution_time": 18.32580629984538,
+      "fitness_values": [
+        15589.0,
+        15825.05,
+        15577.0
+      ]
+    }
+  ]
+}
